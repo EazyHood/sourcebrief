@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="A source-first research desk for Panta prediction-market evidence. Inspect resolution wording, keep a local checkpoint and compare recorded facts.">
+  <title>Sourcebrief — The evidence before the interpretation</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' fill='%23263db7'/%3E%3Cpath d='M9 8h14M9 13h14M9 18h8M9 23h11' stroke='%23fffef9' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script type="module" src="/app.mjs"></script>
+</head>
+<body>
+  <a class="skip-link" href="#evidence">Skip to evidence sheet</a>
+  <header class="masthead wrap">
+    <a class="wordmark" href="/" aria-label="Sourcebrief home"><svg width="32" height="36" viewBox="0 0 32 36" aria-hidden="true"><path d="M6 3h14l7 7v23H6zM20 3v8h7M11 17h11M11 22h11M11 27h7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg><span>Sourcebrief<span class="wordmark-dot">.</span></span></a>
+    <div class="masthead-right"><label class="reader-toggle"><input id="reading-size" type="checkbox">Larger text</label><span class="masthead-label">A market research desk</span><a href="https://panta.market" target="_blank" rel="noopener noreferrer">Powered by Panta <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main class="wrap">
+    <section class="orientation" aria-labelledby="page-title">
+      <div><p class="eyebrow">SOURCE FIRST / INTERPRETATION SECOND</p><h1 id="page-title">What does the market<br>actually say?</h1></div>
+      <p class="orientation-copy">Read the resolution wording. <br>Keep the evidence. See what changed.<span>One market, one clear research brief.</span></p>
+    </section>
+    <div id="offline" class="notice offline" role="status" hidden>You appear to be offline. The current brief remains readable; new requests need a connection.</div>
+    <div class="desk">
+      <aside class="catalogue" aria-labelledby="catalogue-title">
+        <header class="rail-heading"><div><p class="eyebrow">THE CATALOGUE</p><h2 id="catalogue-title">Choose a market</h2></div><span id="loaded-count" class="count">00</span></header>
+        <div class="filters">
+          <label for="search">Search loaded markets</label><div class="search-wrap"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m15 15 5 5" stroke="currentColor" stroke-width="1.6"/></svg><input type="search" id="search" placeholder="Title or identifier" autocomplete="off" spellcheck="false"></div>
+          <label for="category">Category</label><select id="category"><option value="">All loaded categories</option></select>
+          <p id="filter-note" class="small muted">Search and category apply only to the records loaded here.</p>
+        </div>
+        <div id="catalogue-status" role="status" class="small muted">Loading the first page…</div>
+        <ol id="market-list" class="market-list" aria-label="Loaded markets" aria-busy="true"></ol>
+        <button id="load-more" class="button secondary full" type="button" disabled>Load next page <span aria-hidden="true">↓</span></button>
+        <p id="catalogue-source" class="small muted rail-source"></p>
+        <p class="rail-note">No background monitoring.<br>New data is requested only when you open, load or refresh.</p>
+      </aside>
+      <section id="evidence" class="evidence" aria-labelledby="brief-title" tabindex="-1">
+        <div id="detail-status" role="status"></div>
+        <div id="sheet"><div class="empty-sheet"><p class="eyebrow">EVIDENCE SHEET / —</p><h2 id="brief-title">A little context<br>before a conclusion.</h2><p>Select a market to see its exact resolution wording, dates and source identifiers.</p><div class="empty-rule" aria-hidden="true"></div><p class="small muted">No scores. No forecasts. The supplied facts, with their gaps visible.</p></div></div>
+      </section>
+    </div>
+    <footer class="footer"><span>SOURCEBRIEF / Evidence, kept in context.</span><p>Research only. Indicative unit prices are not predictions or advice. Source identifiers are not independently verified.</p></footer>
+  </main>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+</body>
+</html>

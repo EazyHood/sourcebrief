@@ -1,0 +1,5 @@
+* text=auto
+fixtures/*.json -text
+docs/evidence/* -text
+*.jpg binary
+*.png binary

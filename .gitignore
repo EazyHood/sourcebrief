@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.private/
+.cache/
+artifacts/
+*.log
+__pycache__/
+dist/
+submission/video/.work/
+submission/video/captures/
+submission/video/posters/
+submission/video/*.wav
+submission/video/*.mp4
+submission/video/qa/
+public/evidence-export-preview.*

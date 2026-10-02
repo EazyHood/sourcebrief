@@ -1,0 +1,221 @@
+{
+  "title": "Sourcebrief",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "max_seconds": 180,
+  "voice": "Microsoft Zira Desktop",
+  "mode_label": "RECORDED PANTA RESPONSES / 2 OCT 2026",
+  "presentation_label": "Actual browser captures / selected states",
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "Before interpretation, evidence.",
+      "eyebrow": "SOURCEBRIEF",
+      "minimum_seconds": 10,
+      "captions": [
+        "A market headline leaves important questions unanswered.",
+        "Sourcebrief preserves the evidence behind the headline.",
+        "Inspect, save, compare, and export."
+      ]
+    },
+    {
+      "id": "overview",
+      "kind": "capture",
+      "asset": "captures/01-overview.jpg",
+      "heading": "A market, with its context.",
+      "minimum_seconds": 16,
+      "captions": [
+        "These are genuine Panta responses, replayed locally.",
+        "They were captured on October second.",
+        "The original time and recorded label remain.",
+        "Missing catalogue titles come from retrieved detail."
+      ]
+    },
+    {
+      "id": "rule",
+      "kind": "capture",
+      "asset": "captures/02-rule.jpg",
+      "heading": "Read the rule. Keep its source.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Read the resolution wording beside its sources.",
+        "Source identifiers are supplied by the provider.",
+        "They are not independently verified links.",
+        "Missing or shortened information stays explicitly marked."
+      ],
+      "crop": [
+        617,
+        803,
+        1612,
+        1467
+      ],
+      "callout": [
+        "Wording.",
+        "Sources.",
+        "Dates."
+      ]
+    },
+    {
+      "id": "values",
+      "kind": "capture",
+      "asset": "captures/03-values.jpg",
+      "heading": "Values retain their meaning.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Price source and status remain visible.",
+        "Undocumented raw scales are not guessed.",
+        "Zero is a value, not missing information.",
+        "Reported and total volume remain separate fields."
+      ],
+      "crop": [
+        617,
+        1467,
+        1612,
+        1954
+      ],
+      "callout": [
+        "Price context.",
+        "Separate volumes."
+      ]
+    },
+    {
+      "id": "save",
+      "kind": "capture",
+      "asset": "captures/04-checkpoint-saved.jpg",
+      "heading": "Keep a checkpoint.",
+      "minimum_seconds": 13,
+      "captions": [
+        "Save this observation as a local checkpoint.",
+        "It stays attached to this market.",
+        "The original capture time travels with it."
+      ],
+      "crop": [
+        617,
+        3597,
+        1612,
+        3920
+      ],
+      "callout": [
+        "One capture.",
+        "A baseline."
+      ]
+    },
+    {
+      "id": "reload",
+      "kind": "capture",
+      "asset": "captures/05-checkpoint-reloaded.jpg",
+      "heading": "Resume the review.",
+      "minimum_seconds": 13,
+      "captions": [
+        "This capture shows the checkpoint after reload.",
+        "Persistence belongs to this browser and origin.",
+        "It is not an immutable audit log."
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "callout": [
+        "Reloaded.",
+        "Still here."
+      ]
+    },
+    {
+      "id": "refresh",
+      "kind": "capture",
+      "asset": "captures/06-refresh.jpg",
+      "heading": "Compare facts, not request metadata.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Refresh compares supported fields with that checkpoint.",
+        "Replaying the same observation changes no facts.",
+        "A new request identifier is not change.",
+        "Equivalent decimal formatting also remains unchanged."
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "callout": [
+        "Compare facts.",
+        "Keep the context."
+      ]
+    },
+    {
+      "id": "export",
+      "kind": "capture",
+      "asset": "captures/07-export.jpg",
+      "heading": "Carry the evidence forward.",
+      "minimum_seconds": 8,
+      "captions": [
+        "Export a readable brief or structured JSON.",
+        "Both preserve source mode and capture time."
+      ],
+      "crop": [
+        226,
+        22,
+        1695,
+        654
+      ]
+    },
+    {
+      "id": "export-checkpoint",
+      "kind": "capture",
+      "asset": "captures/07-export.jpg",
+      "crop": [
+        226,
+        2900,
+        1695,
+        3320
+      ],
+      "heading": "The original checkpoint travels with the export.",
+      "minimum_seconds": 8,
+      "captions": [
+        "Changed fields retain before and after values.",
+        "This is a reviewable handoff, not certification."
+      ]
+    },
+    {
+      "id": "outcome",
+      "kind": "capture",
+      "asset": "captures/08-resolved.jpg",
+      "heading": "An outcome is not a quote.",
+      "minimum_seconds": 13,
+      "captions": [
+        "This captured record reports a resolved outcome.",
+        "Its zero and one values stay intact.",
+        "They are not current trading quotes."
+      ],
+      "crop": [
+        617,
+        1720,
+        1612,
+        2240
+      ],
+      "callout": [
+        "Resolved",
+        "outcome values."
+      ]
+    },
+    {
+      "id": "close",
+      "kind": "close",
+      "heading": "Inspect the evidence.",
+      "eyebrow": "SOURCEBRIEF",
+      "minimum_seconds": 12,
+      "captions": [
+        "Independently implemented, with substantial Codex assistance.",
+        "Optional live mode uses your own key.",
+        "No trading or independent source certification.",
+        "External adoption has not yet been measured.",
+        "Inspect the code and reproducible evidence."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+A market headline leaves important questions unanswered.
+Sourcebrief preserves the evidence behind the headline.
+Inspect, save, compare, and export.
+
+These are genuine Panta responses, replayed locally.
+They were captured on October second.
+The original time and recorded label remain.
+Missing catalogue titles come from retrieved detail.
+
+Read the resolution wording beside its sources.
+Source identifiers are supplied by the provider.
+They are not independently verified links.
+Missing or shortened information stays explicitly marked.
+
+Price source and status remain visible.
+Undocumented raw scales are not guessed.
+Zero is a value, not missing information.
+Reported and total volume remain separate fields.
+
+Save this observation as a local checkpoint.
+It stays attached to this market.
+The original capture time travels with it.
+
+This capture shows the checkpoint after reload.
+Persistence belongs to this browser and origin.
+It is not an immutable audit log.
+
+Refresh compares supported fields with that checkpoint.
+Replaying the same observation changes no facts.
+A new request identifier is not change.
+Equivalent decimal formatting also remains unchanged.
+
+Export a readable brief or structured JSON.
+Both preserve source mode and capture time.
+
+Changed fields retain before and after values.
+This is a reviewable handoff, not certification.
+
+This captured record reports a resolved outcome.
+Its zero and one values stay intact.
+They are not current trading quotes.
+
+Independently implemented, with substantial Codex assistance.
+Optional live mode uses your own key.
+No trading or independent source certification.
+External adoption has not yet been measured.
+Inspect the code and reproducible evidence.

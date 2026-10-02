@@ -1,0 +1,581 @@
+{
+  "fps": 30,
+  "duration_seconds": 154.06666666666666,
+  "total_frames": 4622,
+  "voice": "Microsoft Zira Desktop",
+  "voice_origin": "Local Windows System.Speech; authorized free fallback",
+  "storyboard_sha256": "c5809f6fb199fa5b73a832ca4151a90db6b0cd7c58e9c41a8eb4e155b106ccee",
+  "scenes": [
+    {
+      "id": "intro",
+      "kind": "title",
+      "heading": "Before interpretation, evidence.",
+      "eyebrow": "SOURCEBRIEF",
+      "minimum_seconds": 10,
+      "captions": [
+        "A market headline leaves important questions unanswered.",
+        "Sourcebrief preserves the evidence behind the headline.",
+        "Inspect, save, compare, and export."
+      ],
+      "start_frame": 0,
+      "end_frame": 371,
+      "frames": 371,
+      "seconds": 12.366666666666667,
+      "cues": [
+        {
+          "text": "A market headline leaves important questions unanswered.",
+          "start_frame": 9,
+          "end_frame": 134,
+          "local_start": 0.3,
+          "local_end": 4.466666666666667,
+          "speech_seconds": 3.9336961451247165
+        },
+        {
+          "text": "Sourcebrief preserves the evidence behind the headline.",
+          "start_frame": 134,
+          "end_frame": 251,
+          "local_start": 4.466666666666667,
+          "local_end": 8.366666666666667,
+          "speech_seconds": 3.6887528344671203
+        },
+        {
+          "text": "Inspect, save, compare, and export.",
+          "start_frame": 251,
+          "end_frame": 362,
+          "local_start": 8.366666666666667,
+          "local_end": 12.066666666666666,
+          "speech_seconds": 3.499092970521542
+        }
+      ]
+    },
+    {
+      "id": "overview",
+      "kind": "capture",
+      "asset": "captures/01-overview.jpg",
+      "heading": "A market, with its context.",
+      "minimum_seconds": 16,
+      "captions": [
+        "These are genuine Panta responses, replayed locally.",
+        "They were captured on October second.",
+        "The original time and recorded label remain.",
+        "Missing catalogue titles come from retrieved detail."
+      ],
+      "start_frame": 371,
+      "end_frame": 851,
+      "frames": 480,
+      "seconds": 16.0,
+      "cues": [
+        {
+          "text": "These are genuine Panta responses, replayed locally.",
+          "start_frame": 380,
+          "end_frame": 509,
+          "local_start": 0.3,
+          "local_end": 4.6,
+          "speech_seconds": 4.0889342403628115
+        },
+        {
+          "text": "They were captured on October second.",
+          "start_frame": 509,
+          "end_frame": 602,
+          "local_start": 4.6,
+          "local_end": 7.7,
+          "speech_seconds": 2.893922902494331
+        },
+        {
+          "text": "The original time and recorded label remain.",
+          "start_frame": 602,
+          "end_frame": 706,
+          "local_start": 7.7,
+          "local_end": 11.166666666666666,
+          "speech_seconds": 3.243809523809524
+        },
+        {
+          "text": "Missing catalogue titles come from retrieved detail.",
+          "start_frame": 706,
+          "end_frame": 821,
+          "local_start": 11.166666666666666,
+          "local_end": 15.0,
+          "speech_seconds": 3.6038548752834467
+        }
+      ]
+    },
+    {
+      "id": "rule",
+      "kind": "capture",
+      "asset": "captures/02-rule.jpg",
+      "heading": "Read the rule. Keep its source.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Read the resolution wording beside its sources.",
+        "Source identifiers are supplied by the provider.",
+        "They are not independently verified links.",
+        "Missing or shortened information stays explicitly marked."
+      ],
+      "crop": [
+        617,
+        803,
+        1612,
+        1467
+      ],
+      "callout": [
+        "Wording.",
+        "Sources.",
+        "Dates."
+      ],
+      "start_frame": 851,
+      "end_frame": 1361,
+      "frames": 510,
+      "seconds": 17.0,
+      "cues": [
+        {
+          "text": "Read the resolution wording beside its sources.",
+          "start_frame": 860,
+          "end_frame": 966,
+          "local_start": 0.3,
+          "local_end": 3.8333333333333335,
+          "speech_seconds": 3.303854875283447
+        },
+        {
+          "text": "Source identifiers are supplied by the provider.",
+          "start_frame": 966,
+          "end_frame": 1080,
+          "local_start": 3.8333333333333335,
+          "local_end": 7.633333333333334,
+          "speech_seconds": 3.56875283446712
+        },
+        {
+          "text": "They are not independently verified links.",
+          "start_frame": 1080,
+          "end_frame": 1180,
+          "local_start": 7.633333333333334,
+          "local_end": 10.966666666666667,
+          "speech_seconds": 3.1238548752834467
+        },
+        {
+          "text": "Missing or shortened information stays explicitly marked.",
+          "start_frame": 1180,
+          "end_frame": 1304,
+          "local_start": 10.966666666666667,
+          "local_end": 15.1,
+          "speech_seconds": 3.918684807256236
+        }
+      ]
+    },
+    {
+      "id": "values",
+      "kind": "capture",
+      "asset": "captures/03-values.jpg",
+      "heading": "Values retain their meaning.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Price source and status remain visible.",
+        "Undocumented raw scales are not guessed.",
+        "Zero is a value, not missing information.",
+        "Reported and total volume remain separate fields."
+      ],
+      "crop": [
+        617,
+        1467,
+        1612,
+        1954
+      ],
+      "callout": [
+        "Price context.",
+        "Separate volumes."
+      ],
+      "start_frame": 1361,
+      "end_frame": 1871,
+      "frames": 510,
+      "seconds": 17.0,
+      "cues": [
+        {
+          "text": "Price source and status remain visible.",
+          "start_frame": 1370,
+          "end_frame": 1466,
+          "local_start": 0.3,
+          "local_end": 3.5,
+          "speech_seconds": 2.9738775510204083
+        },
+        {
+          "text": "Undocumented raw scales are not guessed.",
+          "start_frame": 1466,
+          "end_frame": 1568,
+          "local_start": 3.5,
+          "local_end": 6.9,
+          "speech_seconds": 3.194013605442177
+        },
+        {
+          "text": "Zero is a value, not missing information.",
+          "start_frame": 1568,
+          "end_frame": 1684,
+          "local_start": 6.9,
+          "local_end": 10.766666666666667,
+          "speech_seconds": 3.6388662131519274
+        },
+        {
+          "text": "Reported and total volume remain separate fields.",
+          "start_frame": 1684,
+          "end_frame": 1799,
+          "local_start": 10.766666666666667,
+          "local_end": 14.6,
+          "speech_seconds": 3.603718820861678
+        }
+      ]
+    },
+    {
+      "id": "save",
+      "kind": "capture",
+      "asset": "captures/04-checkpoint-saved.jpg",
+      "heading": "Keep a checkpoint.",
+      "minimum_seconds": 13,
+      "captions": [
+        "Save this observation as a local checkpoint.",
+        "It stays attached to this market.",
+        "The original capture time travels with it."
+      ],
+      "crop": [
+        617,
+        3597,
+        1612,
+        3920
+      ],
+      "callout": [
+        "One capture.",
+        "A baseline."
+      ],
+      "start_frame": 1871,
+      "end_frame": 2261,
+      "frames": 390,
+      "seconds": 13.0,
+      "cues": [
+        {
+          "text": "Save this observation as a local checkpoint.",
+          "start_frame": 1880,
+          "end_frame": 1985,
+          "local_start": 0.3,
+          "local_end": 3.8,
+          "speech_seconds": 3.2689342403628117
+        },
+        {
+          "text": "It stays attached to this market.",
+          "start_frame": 1985,
+          "end_frame": 2069,
+          "local_start": 3.8,
+          "local_end": 6.6,
+          "speech_seconds": 2.5039909297052154
+        },
+        {
+          "text": "The original capture time travels with it.",
+          "start_frame": 2069,
+          "end_frame": 2166,
+          "local_start": 6.6,
+          "local_end": 9.833333333333334,
+          "speech_seconds": 3.028979591836735
+        }
+      ]
+    },
+    {
+      "id": "reload",
+      "kind": "capture",
+      "asset": "captures/05-checkpoint-reloaded.jpg",
+      "heading": "Resume the review.",
+      "minimum_seconds": 13,
+      "captions": [
+        "This capture shows the checkpoint after reload.",
+        "Persistence belongs to this browser and origin.",
+        "It is not an immutable audit log."
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "callout": [
+        "Reloaded.",
+        "Still here."
+      ],
+      "start_frame": 2261,
+      "end_frame": 2651,
+      "frames": 390,
+      "seconds": 13.0,
+      "cues": [
+        {
+          "text": "This capture shows the checkpoint after reload.",
+          "start_frame": 2270,
+          "end_frame": 2378,
+          "local_start": 0.3,
+          "local_end": 3.9,
+          "speech_seconds": 3.3889342403628118
+        },
+        {
+          "text": "Persistence belongs to this browser and origin.",
+          "start_frame": 2378,
+          "end_frame": 2486,
+          "local_start": 3.9,
+          "local_end": 7.5,
+          "speech_seconds": 3.3737868480725623
+        },
+        {
+          "text": "It is not an immutable audit log.",
+          "start_frame": 2486,
+          "end_frame": 2579,
+          "local_start": 7.5,
+          "local_end": 10.6,
+          "speech_seconds": 2.639047619047619
+        }
+      ]
+    },
+    {
+      "id": "refresh",
+      "kind": "capture",
+      "asset": "captures/06-refresh.jpg",
+      "heading": "Compare facts, not request metadata.",
+      "minimum_seconds": 17,
+      "captions": [
+        "Refresh compares supported fields with that checkpoint.",
+        "Replaying the same observation changes no facts.",
+        "A new request identifier is not change.",
+        "Equivalent decimal formatting also remains unchanged."
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "callout": [
+        "Compare facts.",
+        "Keep the context."
+      ],
+      "start_frame": 2651,
+      "end_frame": 3161,
+      "frames": 510,
+      "seconds": 17.0,
+      "cues": [
+        {
+          "text": "Refresh compares supported fields with that checkpoint.",
+          "start_frame": 2660,
+          "end_frame": 2777,
+          "local_start": 0.3,
+          "local_end": 4.2,
+          "speech_seconds": 3.673832199546485
+        },
+        {
+          "text": "Replaying the same observation changes no facts.",
+          "start_frame": 2777,
+          "end_frame": 2897,
+          "local_start": 4.2,
+          "local_end": 8.2,
+          "speech_seconds": 3.7987755102040817
+        },
+        {
+          "text": "A new request identifier is not change.",
+          "start_frame": 2897,
+          "end_frame": 3006,
+          "local_start": 8.2,
+          "local_end": 11.833333333333334,
+          "speech_seconds": 3.4189115646258506
+        },
+        {
+          "text": "Equivalent decimal formatting also remains unchanged.",
+          "start_frame": 3006,
+          "end_frame": 3132,
+          "local_start": 11.833333333333334,
+          "local_end": 16.033333333333335,
+          "speech_seconds": 3.978684807256236
+        }
+      ]
+    },
+    {
+      "id": "export",
+      "kind": "capture",
+      "asset": "captures/07-export.jpg",
+      "heading": "Carry the evidence forward.",
+      "minimum_seconds": 8,
+      "captions": [
+        "Export a readable brief or structured JSON.",
+        "Both preserve source mode and capture time."
+      ],
+      "crop": [
+        226,
+        22,
+        1695,
+        654
+      ],
+      "start_frame": 3161,
+      "end_frame": 3401,
+      "frames": 240,
+      "seconds": 8.0,
+      "cues": [
+        {
+          "text": "Export a readable brief or structured JSON.",
+          "start_frame": 3170,
+          "end_frame": 3286,
+          "local_start": 0.3,
+          "local_end": 4.166666666666667,
+          "speech_seconds": 3.663764172335601
+        },
+        {
+          "text": "Both preserve source mode and capture time.",
+          "start_frame": 3286,
+          "end_frame": 3388,
+          "local_start": 4.166666666666667,
+          "local_end": 7.566666666666666,
+          "speech_seconds": 3.1989569160997733
+        }
+      ]
+    },
+    {
+      "id": "export-checkpoint",
+      "kind": "capture",
+      "asset": "captures/07-export.jpg",
+      "crop": [
+        226,
+        2900,
+        1695,
+        3320
+      ],
+      "heading": "The original checkpoint travels with the export.",
+      "minimum_seconds": 8,
+      "captions": [
+        "Changed fields retain before and after values.",
+        "This is a reviewable handoff, not certification."
+      ],
+      "start_frame": 3401,
+      "end_frame": 3657,
+      "frames": 256,
+      "seconds": 8.533333333333333,
+      "cues": [
+        {
+          "text": "Changed fields retain before and after values.",
+          "start_frame": 3410,
+          "end_frame": 3523,
+          "local_start": 0.3,
+          "local_end": 4.066666666666666,
+          "speech_seconds": 3.5638548752834467
+        },
+        {
+          "text": "This is a reviewable handoff, not certification.",
+          "start_frame": 3523,
+          "end_frame": 3648,
+          "local_start": 4.066666666666666,
+          "local_end": 8.233333333333333,
+          "speech_seconds": 3.9438095238095237
+        }
+      ]
+    },
+    {
+      "id": "outcome",
+      "kind": "capture",
+      "asset": "captures/08-resolved.jpg",
+      "heading": "An outcome is not a quote.",
+      "minimum_seconds": 13,
+      "captions": [
+        "This captured record reports a resolved outcome.",
+        "Its zero and one values stay intact.",
+        "They are not current trading quotes."
+      ],
+      "crop": [
+        617,
+        1720,
+        1612,
+        2240
+      ],
+      "callout": [
+        "Resolved",
+        "outcome values."
+      ],
+      "start_frame": 3657,
+      "end_frame": 4047,
+      "frames": 390,
+      "seconds": 13.0,
+      "cues": [
+        {
+          "text": "This captured record reports a resolved outcome.",
+          "start_frame": 3666,
+          "end_frame": 3778,
+          "local_start": 0.3,
+          "local_end": 4.033333333333333,
+          "speech_seconds": 3.5188662131519273
+        },
+        {
+          "text": "Its zero and one values stay intact.",
+          "start_frame": 3778,
+          "end_frame": 3876,
+          "local_start": 4.033333333333333,
+          "local_end": 7.3,
+          "speech_seconds": 3.053922902494331
+        },
+        {
+          "text": "They are not current trading quotes.",
+          "start_frame": 3876,
+          "end_frame": 3963,
+          "local_start": 7.3,
+          "local_end": 10.2,
+          "speech_seconds": 2.6840362811791385
+        }
+      ]
+    },
+    {
+      "id": "close",
+      "kind": "close",
+      "heading": "Inspect the evidence.",
+      "eyebrow": "SOURCEBRIEF",
+      "minimum_seconds": 12,
+      "captions": [
+        "Independently implemented, with substantial Codex assistance.",
+        "Optional live mode uses your own key.",
+        "No trading or independent source certification.",
+        "External adoption has not yet been measured.",
+        "Inspect the code and reproducible evidence."
+      ],
+      "start_frame": 4047,
+      "end_frame": 4622,
+      "frames": 575,
+      "seconds": 19.166666666666668,
+      "cues": [
+        {
+          "text": "Independently implemented, with substantial Codex assistance.",
+          "start_frame": 4056,
+          "end_frame": 4204,
+          "local_start": 0.3,
+          "local_end": 5.233333333333333,
+          "speech_seconds": 4.713560090702948
+        },
+        {
+          "text": "Optional live mode uses your own key.",
+          "start_frame": 4204,
+          "end_frame": 4298,
+          "local_start": 5.233333333333333,
+          "local_end": 8.366666666666667,
+          "speech_seconds": 2.9240362811791383
+        },
+        {
+          "text": "No trading or independent source certification.",
+          "start_frame": 4298,
+          "end_frame": 4408,
+          "local_start": 8.366666666666667,
+          "local_end": 12.033333333333333,
+          "speech_seconds": 3.44875283446712
+        },
+        {
+          "text": "External adoption has not yet been measured.",
+          "start_frame": 4408,
+          "end_frame": 4509,
+          "local_start": 12.033333333333333,
+          "local_end": 15.4,
+          "speech_seconds": 3.143764172335601
+        },
+        {
+          "text": "Inspect the code and reproducible evidence.",
+          "start_frame": 4509,
+          "end_frame": 4613,
+          "local_start": 15.4,
+          "local_end": 18.866666666666667,
+          "speech_seconds": 3.26390022675737
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "origin": "https://live-api.panta.market",
+  "requests": [
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/?limit=5",
+      "status": 200,
+      "headers": {
+        "x-request-id": "18223f76-e9f9-4408-9734-301c0743a97f"
+      },
+      "body": {
+        "items": [
+          {
+            "marketId": "DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7",
+            "title": "",
+            "category": "pop-culture",
+            "phase": "secondary",
+            "endTime": 1791151200
+          },
+          {
+            "marketId": "4J6WxFGuCw9deMJ6pQ7gwpVXCvLorMrz28icSnCYWeGB",
+            "title": "Manchester United will win against Spurs with 2 or more goals",
+            "category": "sports",
+            "phase": "secondary",
+            "endTime": 1791662400
+          },
+          {
+            "marketId": "pqZAm6T9jhaLuQWXhAJ373eTar6RfVsTT1oq1J5sARM",
+            "title": "",
+            "category": "crypto",
+            "phase": "secondary",
+            "endTime": 1790946000
+          },
+          {
+            "marketId": "6yEBmxJu2oWdubFVKZshVVUpLLsXd61csSfmf8y4Qtwd",
+            "title": "",
+            "category": "pop-culture",
+            "phase": "secondary",
+            "endTime": 1791151200
+          },
+          {
+            "marketId": "4yiz9ycF3PTwf6tMdTKTzFWNo9Yrph4XsSRHgPMpLpjG",
+            "title": "",
+            "category": "commodities",
+            "phase": "resolved",
+            "endTime": 1790875800
+          }
+        ],
+        "nextCursor": "eyJjcmVhdGVkQXQiOiIyMDI2LTA5LTI2VDExOjQ3OjE0LjQ0NDAwMCswMDowMCIsImlkIjoiNHlpejl5Y0YzUFR3ZjZ0TWRUS1R6RldObzlZcnBoNFhzU1JIZ1BNcExwakcifQ"
+      },
+      "completedAt": "2026-10-02T13:37:34.223672+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7/",
+      "status": 200,
+      "headers": {
+        "x-request-id": "199e3e52-8e6a-46dd-b4aa-4e739592c5a1"
+      },
+      "body": {
+        "marketId": "DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7",
+        "title": "Will Tram finish in the Top 3 of BBNaija Season 11?⁠",
+        "description": "",
+        "category": "pop-culture",
+        "phase": "secondary",
+        "resolutionRule": "Resolve YES, if Resolves to YES if Tram finishes 1st, 2nd, or 3rd place in the official BBNaija Season 11 finale results on Oct 4, 2026. Resolves to NO if he finishes 4th or lower. Source: Africa Magic broadcast.. Else resolve NO.",
+        "sources": [
+          "ng-pop-africamagic"
+        ],
+        "startTime": 1790866800,
+        "endTime": 1791151200,
+        "resolutionTime": 1791151200,
+        "yesPrice": "0.5",
+        "noPrice": "0.5",
+        "priceSource": "secondary_last_trade",
+        "valuationStatus": "indicative",
+        "secondaryYesPrice": "500000000",
+        "secondaryNoPrice": "500000000",
+        "resolved": false,
+        "volumeUsdc": "0.00",
+        "totalVolumeUsdc": "5.00",
+        "oracle": "ng-pop-africamagic",
+        "onChain": {
+          "resolutionRule": "Resolve YES, if Resolves to YES if Tram finishes 1st, 2nd, or 3rd place in the official BBNaija Season 11 finale results on Oct 4, 2026. Resolves to NO if he finishes 4th or lower. Source: Africa Magic broadcast.. Else resolve NO.",
+          "sources": [
+            "ng-pop-africamagic"
+          ],
+          "startTime": 1790866800,
+          "endTime": 1791151200,
+          "resolutionTime": 1791151200,
+          "isResolved": false
+        }
+      },
+      "completedAt": "2026-10-02T13:37:36.033493+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/4J6WxFGuCw9deMJ6pQ7gwpVXCvLorMrz28icSnCYWeGB/",
+      "status": 200,
+      "headers": {
+        "x-request-id": "7157635f-fe49-44ce-a670-f23be232fef1"
+      },
+      "body": {
+        "marketId": "4J6WxFGuCw9deMJ6pQ7gwpVXCvLorMrz28icSnCYWeGB",
+        "title": "Manchester United will win against Spurs with 2 or more goals",
+        "description": "",
+        "category": "sports",
+        "phase": "secondary",
+        "resolutionRule": "Manchester United are will win against Spurs with 2 or more goals",
+        "sources": [
+          "https://www.espn.com",
+          "https://www.bbc.com/sport",
+          "https://www.premierleague.com"
+        ],
+        "startTime": 1790911800,
+        "endTime": 1791662400,
+        "resolutionTime": 1791662400,
+        "yesPrice": "0.518009008",
+        "noPrice": "0.481990992",
+        "priceSource": "secondary_last_trade",
+        "valuationStatus": "indicative",
+        "secondaryYesPrice": "518009008",
+        "secondaryNoPrice": "481990992",
+        "resolved": false,
+        "volumeUsdc": "11.00",
+        "totalVolumeUsdc": "16.00",
+        "oracle": "https://www.espn.com,https://www.bbc.com/sport,https://www.premierleague.com",
+        "onChain": {
+          "resolutionRule": "Manchester United are will win against Spurs with 2 or more goals",
+          "sources": [
+            "https://www.espn.com",
+            "https://www.bbc.com/sport",
+            "https://www.premierleague.com"
+          ],
+          "startTime": 1790911800,
+          "endTime": 1791662400,
+          "resolutionTime": 1791662400,
+          "isResolved": false
+        }
+      },
+      "completedAt": "2026-10-02T13:39:16.536910+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/pqZAm6T9jhaLuQWXhAJ373eTar6RfVsTT1oq1J5sARM/",
+      "status": 200,
+      "headers": {
+        "x-request-id": "1d309bc0-bc06-44cd-9389-d2096459729c"
+      },
+      "body": {
+        "marketId": "pqZAm6T9jhaLuQWXhAJ373eTar6RfVsTT1oq1J5sARM",
+        "title": "Will the target in the $JUMP token sale exceed $35m by the october 2 deadline?",
+        "description": "",
+        "category": "crypto",
+        "phase": "secondary",
+        "resolutionRule": "Resolve YES, if $JUMP presale exceeded $35 million by 2:00pm on october 2, 2026. Else resolve NO.",
+        "sources": [
+          "world-crypto-coinbase",
+          "world-crypto-coinmarketcap",
+          "world-crypto-coingecko",
+          "br-finance-b3",
+          "world-finance-yahoo"
+        ],
+        "startTime": 1790751840,
+        "endTime": 1790946000,
+        "resolutionTime": 1790946000,
+        "yesPrice": "0.5",
+        "noPrice": "0.5",
+        "priceSource": "secondary_last_trade",
+        "valuationStatus": "indicative",
+        "secondaryYesPrice": "500000000",
+        "secondaryNoPrice": "500000000",
+        "resolved": false,
+        "volumeUsdc": "0.00",
+        "totalVolumeUsdc": "5.00",
+        "oracle": "world-crypto-coinbase",
+        "onChain": {
+          "resolutionRule": "Resolve YES, if $JUMP presale exceeded $35 million by 2:00pm on october 2, 2026. Else resolve NO.",
+          "sources": [
+            "world-crypto-coinbase",
+            "world-crypto-coinmarketcap",
+            "world-crypto-coingecko",
+            "br-finance-b3",
+            "world-finance-yahoo"
+          ],
+          "startTime": 1790751840,
+          "endTime": 1790946000,
+          "resolutionTime": 1790946000,
+          "isResolved": false
+        }
+      },
+      "completedAt": "2026-10-02T13:39:18.283765+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/6yEBmxJu2oWdubFVKZshVVUpLLsXd61csSfmf8y4Qtwd/",
+      "status": 200,
+      "headers": {
+        "x-request-id": "c0946431-984e-4f5b-aeb5-d22ea9b2422a"
+      },
+      "body": {
+        "marketId": "6yEBmxJu2oWdubFVKZshVVUpLLsXd61csSfmf8y4Qtwd",
+        "title": "Will a female housemate win Big Brother Naija Season 11?⁠",
+        "description": "",
+        "category": "pop-culture",
+        "phase": "secondary",
+        "resolutionRule": "Resolve YES, if Resolves to YES if a female housemate wins BBNaija Season 11 on Oct 4, 2026. Resolves to NO if a male housemate wins.. Else resolve NO.",
+        "sources": [
+          "ng-pop-africamagic"
+        ],
+        "startTime": 1790597700,
+        "endTime": 1791151200,
+        "resolutionTime": 1791151200,
+        "yesPrice": "0.520520999",
+        "noPrice": "0.479479001",
+        "priceSource": "secondary_last_trade",
+        "valuationStatus": "indicative",
+        "secondaryYesPrice": "520520999",
+        "secondaryNoPrice": "479479001",
+        "resolved": false,
+        "volumeUsdc": "245.704615",
+        "totalVolumeUsdc": "250.704615",
+        "oracle": "ng-pop-africamagic",
+        "onChain": {
+          "resolutionRule": "Resolve YES, if Resolves to YES if a female housemate wins BBNaija Season 11 on Oct 4, 2026. Resolves to NO if a male housemate wins.. Else resolve NO.",
+          "sources": [
+            "ng-pop-africamagic"
+          ],
+          "startTime": 1790597700,
+          "endTime": 1791151200,
+          "resolutionTime": 1791151200,
+          "isResolved": false
+        }
+      },
+      "completedAt": "2026-10-02T13:39:20.095451+00:00"
+    },
+    {
+      "method": "GET",
+      "path": "/api/v1/markets/4yiz9ycF3PTwf6tMdTKTzFWNo9Yrph4XsSRHgPMpLpjG/",
+      "status": 200,
+      "headers": {
+        "x-request-id": "0b98d4a3-d799-4a72-b4bc-2e44d09bb162"
+      },
+      "body": {
+        "marketId": "4yiz9ycF3PTwf6tMdTKTzFWNo9Yrph4XsSRHgPMpLpjG",
+        "title": "Will ICE Brent Crude Oil Futures (December 2026 Contract) settle at or above $104.00 per barrel on Thursday, October 1, 2026, at 6:30 PM BST?",
+        "description": "",
+        "category": "commodities",
+        "phase": "resolved",
+        "resolutionRule": "Resolve YES, if the official daily settlement price published by the Intercontinental Exchange (ICE) for the front-month December 2026 Brent Crude contract on Thursday, October 1, 2026, is exactly $104.00 or higher. Else resolve NO.",
+        "sources": [
+          "world-stocks-bloomberg",
+          "world-finance-reuters",
+          "world-stocks-yahoo-finance"
+        ],
+        "startTime": 1790870400,
+        "endTime": 1790875800,
+        "resolutionTime": 1790875800,
+        "yesPrice": "0",
+        "noPrice": "1",
+        "priceSource": "resolved_outcome",
+        "valuationStatus": "complete",
+        "secondaryYesPrice": "500096044",
+        "secondaryNoPrice": "499903956",
+        "resolved": true,
+        "volumeUsdc": "349.369134",
+        "totalVolumeUsdc": "359.369134",
+        "oracle": "world-stocks-bloomberg",
+        "onChain": {
+          "resolutionRule": "Resolve YES, if the official daily settlement price published by the Intercontinental Exchange (ICE) for the front-month December 2026 Brent Crude contract on Thursday, October 1, 2026, is exactly $104.00 or higher. Else resolve NO.",
+          "sources": [
+            "world-stocks-bloomberg",
+            "world-finance-reuters",
+            "world-stocks-yahoo-finance"
+          ],
+          "startTime": 1790870400,
+          "endTime": 1790875800,
+          "resolutionTime": 1790875800,
+          "isResolved": true
+        }
+      },
+      "completedAt": "2026-10-02T13:39:21.775950+00:00"
+    }
+  ]
+}
