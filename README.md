@@ -6,14 +6,17 @@ Sourcebrief has a static evaluator demo using genuine recorded responses and a l
 
 ## Try the evaluator demo
 
-Publication targets prepared on 2 October 2026; external availability is pending verification:
+Published and checked in the browser on 2 October 2026:
 
 - Recorded demo: [eazyhood.github.io/sourcebrief](https://eazyhood.github.io/sourcebrief/).
 - Full source: [EazyHood/sourcebrief](https://github.com/EazyHood/sourcebrief).
+- Product walkthrough: [2:34 video with captions](https://eazyhood.github.io/sourcebrief/presentation.html).
 
 The static demo contains **five genuine Panta market captures from 2 October 2026**. Its visible recorded label and original timestamps remain in the brief and exports. It has no API key and never contacts Panta. “Replay captured evidence” reloads the same evidence; it does not claim a fresh market observation. Additional pages are outside the capture and return a clear unavailable message.
 
 Choose a market, inspect its rule and gaps, save a checkpoint, replay, and export JSON or Markdown. Use **Larger text** in the header to enlarge the evidence text for reading. Replaying the same capture correctly reports no tracked data changes. A checkpoint saved from a different genuine capture can be compared without changing either date or mode label.
+
+The public browser check confirmed the five recorded markets, original timestamps, checkpoint persistence after reload, unchanged replay, an actual JSON download and an explicit message for an uncaptured next page. The hosted 1080p video played and responded to seek/pause controls. See the [QA record](docs/QA-2026-10-02.md) for the tested release and limits, including checks not performed.
 
 Publishing this demo and repository does not mean an official hackathon entry has been submitted or accepted. Any official entry receipt is tracked separately.
 

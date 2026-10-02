@@ -1,9 +1,10 @@
 # Sourcebrief — candidate text
 
-Prepared 2 October 2026. **Candidate text; official submission and acceptance are not confirmed.** A static recorded evaluator demo and complete source repository are prepared for publication. The intended links below remain pending external verification; reconcile them with the published version and any official receipts before entering a form.
+Prepared 2 October 2026. **Candidate text; official Colosseum/Crypto World's Fair and Panta Earn entries have not been submitted.** The source repository was first published from commit `cb36790`; the browser-verified public release is `1616f17`, deployed successfully by Pages run `37015736379`. The recorded evaluator demo and hosted presentation are available at the verified links below. Publication is not organizer acceptance; reconcile the actual form and any later official receipts before declaring submission.
 
-- Intended evaluator demo: https://eazyhood.github.io/sourcebrief/ — genuine recorded data, not a live feed.
-- Intended full repository: https://github.com/EazyHood/sourcebrief — includes the local live server.
+- Verified evaluator demo: https://eazyhood.github.io/sourcebrief/ — genuine recorded data, not a live feed.
+- Published full repository: https://github.com/EazyHood/sourcebrief — includes the local live server.
+- Verified presentation player: https://eazyhood.github.io/sourcebrief/presentation.html — approximately 2 minutes 34 seconds, 1080p, English narration and visible captions. Public playback and seek/pause controls were checked; no listening audit is claimed.
 
 ## Project name
 
@@ -73,7 +74,7 @@ See the project README, frozen contract, provenance note and test files for the 
 
 ## Current limits and next validation
 
-The implementation is a research prototype with a prepared static evaluator demo and a local live mode. External availability of the intended demo and repository links has not yet been verified in this draft. The static demo contains one page and five recorded details, never a current feed. A local checkpoint is editable browser data, not server history or a tamper-evident audit log. Source identifiers, resolution claims and on-chain fields are reported by Panta; Sourcebrief has not independently authenticated them. Search covers loaded catalogue rows, not the complete market universe. There is no background monitoring, multi-user collaboration or trading function.
+The implementation is a research prototype with a published source repository, browser-verified static evaluator demo and a local live mode. Hosted checks confirmed loading, checkpoint persistence, unchanged replay, a validated JSON export, an explicit uncaptured-page error, mobile layout in normal/Larger text modes and video playback controls. The static demo contains one page and five recorded details, never a current feed. A local checkpoint is editable browser data, not server history or a tamper-evident audit log. Source identifiers, resolution claims and on-chain fields are reported by Panta; Sourcebrief has not independently authenticated them. Search covers loaded catalogue rows, not the complete market universe. There is no background monitoring, multi-user collaboration or trading function.
 
 No interviews, external users, usage retention, revenue, accuracy gains or time savings have been measured. The proposed next validation is to have intended readers produce one evidence brief and review one controlled revision, then record completion, interpretation errors and feedback. That is a future evaluation plan, not traction.
 
@@ -83,6 +84,8 @@ Panta availability, account access, quota and commercial terms still apply to li
 
 Sourcebrief was developed with substantial assistance from OpenAI Codex, including implementation, test design, documentation and this candidate text. Do not describe it as unaided human coding or imply that AI assistance has already been approved by the organizers. The saved Panta listing and subsequently reviewed official CWF PDF contain no explicit AI clause. This does not constitute organizer approval; check any additional final-form declaration and disclose the assistance honestly.
 
+The completed presentation uses actual browser captures of selected states, with English narration from the authorized free local Microsoft Zira Desktop voice and captions. It is approximately 2 minutes 34 seconds at 1920×1080 and 30 fps. It does not claim continuous screen recording, a human narrator or a newly changing live market.
+
 The local provenance record dates this candidate to 2 October 2026. Original code and documentation are MIT licensed. The Panta API, documentation and captured market data remain third-party materials; the repository's NOTICE excludes them from that license grant. The playground was consulted as a reference, not copied. Declare any prior code or components truthfully in the official form after checking the final repository history. No claim of exclusive ownership over Panta data is made.
 
 ## Form preparation — not filled or sent
@@ -91,11 +94,12 @@ The local provenance record dates this candidate to 2 October 2026. Original cod
 |---|---|
 | Name | Sourcebrief |
 | Description | Short description above, adjusted only to the actual form limit |
-| Source repository | Intended https://github.com/EazyHood/sourcebrief ; external availability pending verification |
-| Website | Intended https://eazyhood.github.io/sourcebrief/ ; static recorded demo, external availability pending verification |
+| Source repository | Published https://github.com/EazyHood/sourcebrief ; first commit `cb36790`, verified release `1616f17` |
+| Website | Verified https://eazyhood.github.io/sourcebrief/ ; static recorded demo |
 | Project social profile | Optional in the saved Earn form; no project profile verified |
-| Presentation | This folder contains a script only; no final recording URL exists here |
-| Official Colosseum submission | Not confirmed; do not answer Yes without its receipt |
+| Presentation | Verified https://eazyhood.github.io/sourcebrief/presentation.html ; 2:34 English 1080p video, public playback/seek/pause checked |
+| Official Colosseum submission | Not submitted; do not answer Yes without its receipt |
+| Panta Earn submission | Not submitted; publishing the project is not an entry receipt |
 | Colosseum project/profile links | Pending verified official entry, subject to the one-product/team gate |
 
 Colosseum acceptance and the existing product/team slot remain gates. Do not create a competing entry to make this draft appear complete. A Panta Earn entry cannot substitute for the official Colosseum submission.

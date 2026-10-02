@@ -1,0 +1,255 @@
+{
+  "document": "Sourcebrief evidence record",
+  "version": 1,
+  "exportedAt": "2026-10-02T13:51:53.902Z",
+  "scope": "Panta-supplied market data. Source identifiers are not verified URLs. Values must be read with their provider source and valuation status, not as advice or predictions.",
+  "priceInterpretation": {
+    "outcome": false,
+    "heading": "Indicative unit prices",
+    "valueLabel": "indicative unit price",
+    "explanation": "Normalized 0–1 scale. A quoted price is not a forecast, a recommendation or an executable trade."
+  },
+  "brief": {
+    "version": 1,
+    "id": "DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7",
+    "title": "Will Tram finish in the Top 3 of BBNaija Season 11?⁠",
+    "description": "",
+    "category": "pop-culture",
+    "phase": "secondary",
+    "rule": {
+      "text": "Resolve YES, if Resolves to YES if Tram finishes 1st, 2nd, or 3rd place in the official BBNaija Season 11 finale results on Oct 4, 2026. Resolves to NO if he finishes 4th or lower. Source: Africa Magic broadcast.. Else resolve NO.",
+      "sources": [
+        "ng-pop-africamagic"
+      ]
+    },
+    "timeline": {
+      "startAt": "2026-10-01T15:00:00.000Z",
+      "endAt": "2026-10-04T22:00:00.000Z",
+      "resolutionAt": "2026-10-04T22:00:00.000Z"
+    },
+    "prices": {
+      "yes": "0.5",
+      "no": "0.5",
+      "source": "secondary_last_trade",
+      "valuationStatus": "indicative"
+    },
+    "volume": {
+      "reported": "0",
+      "total": "5",
+      "currency": "USDC"
+    },
+    "checks": [
+      {
+        "code": "TITLE",
+        "status": "present",
+        "label": "Title",
+        "detail": "Supplied by the provider; not independently verified.",
+        "field": "title"
+      },
+      {
+        "code": "RULE",
+        "status": "present",
+        "label": "Resolution wording",
+        "detail": "Supplied by the provider; not independently verified.",
+        "field": "rule.text"
+      },
+      {
+        "code": "SOURCES",
+        "status": "present",
+        "label": "Source identifiers",
+        "detail": "Provider-supplied identifiers; source URLs and authority are not verified.",
+        "field": "rule.sources"
+      },
+      {
+        "code": "STARTTIME",
+        "status": "present",
+        "label": "Start date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.startAt"
+      },
+      {
+        "code": "ENDTIME",
+        "status": "present",
+        "label": "End date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.endAt"
+      },
+      {
+        "code": "RESOLUTIONTIME",
+        "status": "present",
+        "label": "Resolution date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.resolutionAt"
+      },
+      {
+        "code": "PRICE_YES",
+        "status": "present",
+        "label": "YES indicative unit price",
+        "detail": "Explicit provider last-trade value, labeled indicative; not an executable quote or a forecast. Provider valuation status: indicative.",
+        "field": "prices.yes"
+      },
+      {
+        "code": "PRICE_NO",
+        "status": "present",
+        "label": "NO indicative unit price",
+        "detail": "Explicit provider last-trade value, labeled indicative; not an executable quote or a forecast. Provider valuation status: indicative.",
+        "field": "prices.no"
+      },
+      {
+        "code": "PRICE_SOURCE",
+        "status": "present",
+        "label": "Price provenance",
+        "detail": "Provider-supplied price source.",
+        "field": "prices.source"
+      },
+      {
+        "code": "RAW_PRICE_SCALE",
+        "status": "attention",
+        "label": "Raw secondary price uses a different scale",
+        "detail": "secondaryYesPrice is outside 0 to 1 and was not used as a unit price. No scale conversion was assumed.",
+        "field": "prices.yes"
+      },
+      {
+        "code": "RAW_PRICE_SCALE",
+        "status": "attention",
+        "label": "Raw secondary price uses a different scale",
+        "detail": "secondaryNoPrice is outside 0 to 1 and was not used as a unit price. No scale conversion was assumed.",
+        "field": "prices.no"
+      }
+    ],
+    "provenance": {
+      "provider": "Panta",
+      "mode": "recorded",
+      "fetchedAt": "2026-10-02T13:37:36.033Z",
+      "requestId": "199e3e52-8e6a-46dd-b4aa-4e739592c5a1",
+      "endpoint": "https://live-api.panta.market/api/v1/markets/DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7/",
+      "cached": false
+    },
+    "providerFields": {
+      "oracle": "ng-pop-africamagic",
+      "resolved": false
+    }
+  },
+  "checkpoint": {
+    "version": 1,
+    "id": "DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7",
+    "title": "Will Tram finish in the Top 3 of BBNaija Season 11?⁠",
+    "description": "",
+    "category": "pop-culture",
+    "phase": "secondary",
+    "rule": {
+      "text": "Resolve YES, if Resolves to YES if Tram finishes 1st, 2nd, or 3rd place in the official BBNaija Season 11 finale results on Oct 4, 2026. Resolves to NO if he finishes 4th or lower. Source: Africa Magic broadcast.. Else resolve NO.",
+      "sources": [
+        "ng-pop-africamagic"
+      ]
+    },
+    "timeline": {
+      "startAt": "2026-10-01T15:00:00.000Z",
+      "endAt": "2026-10-04T22:00:00.000Z",
+      "resolutionAt": "2026-10-04T22:00:00.000Z"
+    },
+    "prices": {
+      "yes": "0.5",
+      "no": "0.5",
+      "source": "secondary_last_trade",
+      "valuationStatus": "indicative"
+    },
+    "volume": {
+      "reported": "0",
+      "total": "5",
+      "currency": "USDC"
+    },
+    "checks": [
+      {
+        "code": "TITLE",
+        "status": "present",
+        "label": "Title",
+        "detail": "Supplied by the provider; not independently verified.",
+        "field": "title"
+      },
+      {
+        "code": "RULE",
+        "status": "present",
+        "label": "Resolution wording",
+        "detail": "Supplied by the provider; not independently verified.",
+        "field": "rule.text"
+      },
+      {
+        "code": "SOURCES",
+        "status": "present",
+        "label": "Source identifiers",
+        "detail": "Provider-supplied identifiers; source URLs and authority are not verified.",
+        "field": "rule.sources"
+      },
+      {
+        "code": "STARTTIME",
+        "status": "present",
+        "label": "Start date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.startAt"
+      },
+      {
+        "code": "ENDTIME",
+        "status": "present",
+        "label": "End date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.endAt"
+      },
+      {
+        "code": "RESOLUTIONTIME",
+        "status": "present",
+        "label": "Resolution date",
+        "detail": "Provider date, normalized to UTC.",
+        "field": "timeline.resolutionAt"
+      },
+      {
+        "code": "PRICE_YES",
+        "status": "present",
+        "label": "YES indicative unit price",
+        "detail": "Explicit provider last-trade value, labeled indicative; not an executable quote or a forecast. Provider valuation status: indicative.",
+        "field": "prices.yes"
+      },
+      {
+        "code": "PRICE_NO",
+        "status": "present",
+        "label": "NO indicative unit price",
+        "detail": "Explicit provider last-trade value, labeled indicative; not an executable quote or a forecast. Provider valuation status: indicative.",
+        "field": "prices.no"
+      },
+      {
+        "code": "PRICE_SOURCE",
+        "status": "present",
+        "label": "Price provenance",
+        "detail": "Provider-supplied price source.",
+        "field": "prices.source"
+      },
+      {
+        "code": "RAW_PRICE_SCALE",
+        "status": "attention",
+        "label": "Raw secondary price uses a different scale",
+        "detail": "secondaryYesPrice is outside 0 to 1 and was not used as a unit price. No scale conversion was assumed.",
+        "field": "prices.yes"
+      },
+      {
+        "code": "RAW_PRICE_SCALE",
+        "status": "attention",
+        "label": "Raw secondary price uses a different scale",
+        "detail": "secondaryNoPrice is outside 0 to 1 and was not used as a unit price. No scale conversion was assumed.",
+        "field": "prices.no"
+      }
+    ],
+    "provenance": {
+      "provider": "Panta",
+      "mode": "recorded",
+      "fetchedAt": "2026-10-02T13:37:36.033Z",
+      "requestId": "199e3e52-8e6a-46dd-b4aa-4e739592c5a1",
+      "endpoint": "https://live-api.panta.market/api/v1/markets/DW1G3gChuFpMJDCURtkQ6K6Ye2ihyv3Vsob1QE8Tivq7/",
+      "cached": false
+    },
+    "providerFields": {
+      "oracle": "ng-pop-africamagic",
+      "resolved": false
+    }
+  },
+  "changes": []
+}
