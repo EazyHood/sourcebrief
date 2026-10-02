@@ -67,6 +67,9 @@ export async function buildRecordedDemo({ outDir = path.join(root, 'dist'), gene
   await writeFile(path.join(output, 'recorded-fetch.mjs'), await readFile(path.join(root, 'static', 'recorded-fetch.mjs')));
   for (const name of ['styles.css', 'evidence.mjs']) await writeFile(path.join(output, name), await readFile(path.join(root, 'public', name)));
   await writeFile(path.join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
+  for (const name of ['presentation.html', 'presentation.css']) await writeFile(path.join(output, name), await readFile(path.join(root, 'static', name)));
+  await mkdir(path.join(output, 'media'), { recursive: true });
+  for (const name of ['sourcebrief-demo.mp4', 'sourcebrief-demo.en.vtt', 'poster.jpg']) await writeFile(path.join(output, 'media', name), await readFile(path.join(root, 'static', 'media', name)));
   await writeFile(path.join(output, '.nojekyll'), '');
   return { outDir: output, recordCount: manifest.recordCount, sourceSHA256: manifest.sourceRecording.sha256 };
 }

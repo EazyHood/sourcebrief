@@ -3,3 +3,4 @@ fixtures/*.json -text
 docs/evidence/* -text
 *.jpg binary
 *.png binary
+*.mp4 binary

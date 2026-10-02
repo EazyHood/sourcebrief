@@ -33,7 +33,7 @@ test('static recorded build and adapter preserve the contract on a GitHub Pages 
   }
   try {
     await t.test('build publishes only the allowlist, never raw provider fields or source credentials', async () => {
-      assert.deepEqual((await readdir(destination)).sort(), ['.nojekyll', 'app.mjs', 'data', 'evidence.mjs', 'index.html', 'manifest.json', 'recorded-fetch.mjs', 'styles.css']);
+      assert.deepEqual((await readdir(destination)).sort(), ['.nojekyll', 'app.mjs', 'data', 'evidence.mjs', 'index.html', 'manifest.json', 'media', 'presentation.css', 'presentation.html', 'recorded-fetch.mjs', 'styles.css']);
       assert.equal(manifest.mode, 'recorded'); assert.equal(manifest.recordCount, 5);
       assert.equal(Object.keys(manifest.briefs).length, 5);
       for (const entry of [manifest.catalog, ...Object.values(manifest.briefs)]) {

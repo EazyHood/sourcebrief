@@ -1,0 +1,364 @@
+{
+  "status": "rendered_and_decoded_local",
+  "file": "sourcebrief-demo.mp4",
+  "sha256": "f579937bb3450ed6c8c05cf291012091357cd070111fb9d7ebc8357dc8fb214b",
+  "bytes": 4071079,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "fps": 30,
+  "duration_seconds": 154.06666666666666,
+  "storyboard_sha256": "c5809f6fb199fa5b73a832ca4151a90db6b0cd7c58e9c41a8eb4e155b106ccee",
+  "narration_sha256": "f1b6c22965139b359fa211ecc48a0a63fb7d441f70bc8bb3e72276860ee3028e",
+  "voice": "Microsoft Zira Desktop",
+  "voice_origin": "Local Windows System.Speech; authorized free fallback",
+  "ffmpeg": "ffmpeg version 7.1-essentials_build-www.gyan.dev Copyright (c) 2000-2024 the FFmpeg developers",
+  "inputs": [
+    {
+      "kind": "title",
+      "scene_id": "intro",
+      "poster": "01-intro.png",
+      "poster_sha256": "9250eb27b33a9eca69c5c0fb99e92dc1664525863cd9d0378b4eb9ebf24a575b"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/01-overview.jpg",
+      "sha256": "1bfbde2bc1a5a07b0a4f980b51a5902943a367e8771c4d12d17f6d811f452196",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1905,
+        1072
+      ],
+      "crop": [
+        0,
+        0,
+        1905,
+        1072
+      ],
+      "rendered_dimensions": [
+        1315,
+        740
+      ],
+      "scale": 0.6902985074626866,
+      "position": [
+        302,
+        206
+      ],
+      "upscaled": false,
+      "scene_id": "overview",
+      "poster": "02-overview.png",
+      "poster_sha256": "102f2a21b5e1d5761c2286f0592cf24f328e857b9e563db3b4e88042abd71638"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/02-rule.jpg",
+      "sha256": "9f2e22d800d133ff8c2dcfa2b9f7b684e351ec6e2efa4d3ff8d5955a37d74a38",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4057
+      ],
+      "crop": [
+        617,
+        803,
+        1612,
+        1467
+      ],
+      "rendered_dimensions": [
+        995,
+        664
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        244
+      ],
+      "upscaled": false,
+      "scene_id": "rule",
+      "poster": "03-rule.png",
+      "poster_sha256": "68e0ae4a9798b80b0db3e0f648683654c7b570b9349632607ea68a2f09278e44"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/03-values.jpg",
+      "sha256": "9f2e22d800d133ff8c2dcfa2b9f7b684e351ec6e2efa4d3ff8d5955a37d74a38",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4057
+      ],
+      "crop": [
+        617,
+        1467,
+        1612,
+        1954
+      ],
+      "rendered_dimensions": [
+        995,
+        487
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        332
+      ],
+      "upscaled": false,
+      "scene_id": "values",
+      "poster": "04-values.png",
+      "poster_sha256": "50892853cbc4d87f2927d839c787fa12bd4937a744e76c5de2138b9806d66b0f"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/04-checkpoint-saved.jpg",
+      "sha256": "3366631d2a8e994ea7823b361f5df5b9eca47239ece44f5f0a5a72a74cdbfdee",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4148
+      ],
+      "crop": [
+        617,
+        3597,
+        1612,
+        3920
+      ],
+      "rendered_dimensions": [
+        995,
+        323
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        414
+      ],
+      "upscaled": false,
+      "scene_id": "save",
+      "poster": "05-save.png",
+      "poster_sha256": "37ff17b9f6945a7f017027f2a704ec493cf981cf3977cf2f3c7573910c3f2a93"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/05-checkpoint-reloaded.jpg",
+      "sha256": "12c6f5c3d7a2d562ce1e1b30086621acf4b7959d5b7478ef6c332d46f6a7f0e0",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4120
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "rendered_dimensions": [
+        995,
+        320
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        416
+      ],
+      "upscaled": false,
+      "scene_id": "reload",
+      "poster": "06-reload.png",
+      "poster_sha256": "98c2d567e5566372ad5537a4648a7683c70a88c8a77720e20cb18a6e05843f01"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/06-refresh.jpg",
+      "sha256": "fb68bee1c60c217d0b885bd154b731395a810a56711b9f93589f5e135a13219a",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4120
+      ],
+      "crop": [
+        617,
+        3570,
+        1612,
+        3890
+      ],
+      "rendered_dimensions": [
+        995,
+        320
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        416
+      ],
+      "upscaled": false,
+      "scene_id": "refresh",
+      "poster": "07-refresh.png",
+      "poster_sha256": "9a00a2a257b1c58f507f0307e9fa7780a1fdb9ba4990464fa4f52dbceed03139"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/07-export.jpg",
+      "sha256": "7587df14509cb58daeb6d72af56e0d1bf16292b6662830865f928af4f3d7acf9",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        3350
+      ],
+      "crop": [
+        226,
+        22,
+        1695,
+        654
+      ],
+      "rendered_dimensions": [
+        1469,
+        632
+      ],
+      "scale": 1.0,
+      "position": [
+        225,
+        260
+      ],
+      "upscaled": false,
+      "scene_id": "export",
+      "poster": "08-export.png",
+      "poster_sha256": "5fbfcc2447136592137725e5515c78f15376d0fbf90679bcbf54c82739649e56"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/07-export.jpg",
+      "sha256": "7587df14509cb58daeb6d72af56e0d1bf16292b6662830865f928af4f3d7acf9",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        3350
+      ],
+      "crop": [
+        226,
+        2900,
+        1695,
+        3320
+      ],
+      "rendered_dimensions": [
+        1469,
+        420
+      ],
+      "scale": 1.0,
+      "position": [
+        225,
+        366
+      ],
+      "upscaled": false,
+      "scene_id": "export-checkpoint",
+      "poster": "09-export-checkpoint.png",
+      "poster_sha256": "3e17cf5e4679c6f645e757d1d11d3be41db3819f953d7733a6ae2568dd00a4ca"
+    },
+    {
+      "kind": "capture",
+      "file": "captures/08-resolved.jpg",
+      "sha256": "f909d158b731b16bf1e7926b4af7a3584c9c24a6247966c6168cf3f88731609e",
+      "source_format": "JPEG",
+      "source_dimensions": [
+        1904,
+        4341
+      ],
+      "crop": [
+        617,
+        1720,
+        1612,
+        2240
+      ],
+      "rendered_dimensions": [
+        995,
+        520
+      ],
+      "scale": 1.0,
+      "position": [
+        851,
+        316
+      ],
+      "upscaled": false,
+      "scene_id": "outcome",
+      "poster": "10-outcome.png",
+      "poster_sha256": "904367a1dad50ae8b648bca247c342ec3417957491179388b39f873def9ba491"
+    },
+    {
+      "kind": "close",
+      "scene_id": "close",
+      "poster": "11-close.png",
+      "poster_sha256": "d321cff590c121b643c5251561a1b1d6c0513051a45b7c7842e2ac9bc0f9c1d7"
+    }
+  ],
+  "decoded_final_frames": [
+    {
+      "scene_id": "intro",
+      "at_seconds": 6.166666666666667,
+      "file": "qa\\01-intro-final.png",
+      "sha256": "c37ef59afa049b0157019f141f7c620b2e60547b36494c11e678e7ab42f99469"
+    },
+    {
+      "scene_id": "overview",
+      "at_seconds": 20.366666666666667,
+      "file": "qa\\02-overview-final.png",
+      "sha256": "0a39f43568bebfa9dd1e585b70082befd4d5d98751ba8d860ce1a849adda7684"
+    },
+    {
+      "scene_id": "rule",
+      "at_seconds": 36.86666666666667,
+      "file": "qa\\03-rule-final.png",
+      "sha256": "32f188057e4c664ba3ec83eacddf308fd3fbd6fcf01394e27fc5ab6b9da77b78"
+    },
+    {
+      "scene_id": "values",
+      "at_seconds": 53.86666666666667,
+      "file": "qa\\04-values-final.png",
+      "sha256": "3db24bb012d850b5d071b65e7d858f032f16833ea6ecd460036e83a56e2b9533"
+    },
+    {
+      "scene_id": "save",
+      "at_seconds": 68.86666666666666,
+      "file": "qa\\05-save-final.png",
+      "sha256": "c2871c3e9bf5ce01c3316e2b04f7f43a468943f5467d9f6656f6c858f362a6e2"
+    },
+    {
+      "scene_id": "reload",
+      "at_seconds": 81.86666666666666,
+      "file": "qa\\06-reload-final.png",
+      "sha256": "662d5edeb54d61df84647ba98196328b0eff4825e1d27dba15eb9176977913f9"
+    },
+    {
+      "scene_id": "refresh",
+      "at_seconds": 96.86666666666666,
+      "file": "qa\\07-refresh-final.png",
+      "sha256": "202aa177197f81cbc7d21d0bb34afbdfac81b216bd1a706a8dd38dcf0199b487"
+    },
+    {
+      "scene_id": "export",
+      "at_seconds": 109.36666666666666,
+      "file": "qa\\08-export-final.png",
+      "sha256": "43d3c2c8f688152be498f939490e791d57d4791cfdc6d3920eff5161652ce7c7"
+    },
+    {
+      "scene_id": "export-checkpoint",
+      "at_seconds": 117.63333333333334,
+      "file": "qa\\09-export-checkpoint-final.png",
+      "sha256": "339b4bd59fdb95d64f47d91d16632a159152609762cb26694926b32f27ea0239"
+    },
+    {
+      "scene_id": "outcome",
+      "at_seconds": 128.4,
+      "file": "qa\\10-outcome-final.png",
+      "sha256": "ec86bc0600becedc689da17ba55abfc109e914cb4d3e1e0803666b25a4363891"
+    },
+    {
+      "scene_id": "close",
+      "at_seconds": 144.46666666666667,
+      "file": "qa\\11-close-final.png",
+      "sha256": "5af7c27cd5b4feba51e9a04830c503d8a119b592b2bf66ff8695923e82b36bc1"
+    }
+  ],
+  "presentation": "Actual browser screenshots, selected states; not uninterrupted capture",
+  "visual_and_audio_final_review": "Native-size final-frame visual review completed for rule, refreshed checkpoint, exported provenance and resolved outcome; all posters reviewed in contact sheet. Full decode passed. PCM clipping/duration checked. Audible playback, physical mobile and public-player review pending publishing operator.",
+  "published": false,
+  "review_document": "qa/REVIEW.md"
+}
