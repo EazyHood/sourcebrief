@@ -33,8 +33,16 @@ test('static recorded build and adapter preserve the contract on a GitHub Pages 
   }
   try {
     await t.test('build publishes only the allowlist, never raw provider fields or source credentials', async () => {
-      assert.deepEqual((await readdir(destination)).sort(), ['.nojekyll', 'app.mjs', 'data', 'evidence.mjs', 'index.html', 'manifest.json', 'media', 'presentation.css', 'presentation.html', 'recorded-fetch.mjs', 'styles.css']);
+      assert.deepEqual((await readdir(destination)).sort(), ['.nojekyll', 'app.mjs', 'data', 'evidence.mjs', 'index.html', 'launch.css', 'launch.html', 'launch.mjs', 'manifest.json', 'media', 'presentation-manifest.json', 'presentation.css', 'presentation.html', 'recorded-fetch.mjs', 'styles.css']);
       assert.equal(manifest.mode, 'recorded'); assert.equal(manifest.recordCount, 5);
+      assert.equal(Object.hasOwn(manifest, 'presentationMedia'), false, 'Presentation files must not alter the strict market manifest');
+      const mediaManifest = JSON.parse(await readFile(path.join(destination, 'presentation-manifest.json'), 'utf8'));
+      assert.equal(mediaManifest.assets.length, 6);
+      for (const asset of mediaManifest.assets) {
+        const bytes = await readFile(path.join(destination, asset.path));
+        assert.equal(bytes.length, asset.bytes);
+        assert.equal(sha256(bytes), asset.sha256);
+      }
       assert.equal(Object.keys(manifest.briefs).length, 5);
       for (const entry of [manifest.catalog, ...Object.values(manifest.briefs)]) {
         const bytes = await readFile(path.join(destination, entry.path));
@@ -51,6 +59,16 @@ test('static recorded build and adapter preserve the contract on a GitHub Pages 
       assert.match(html, /href="\.\/styles.css"/); assert.match(html, /src="\.\/app.mjs"/);
       assert.doesNotMatch(html, /href="\/"|src="\/app/);
       assert.match(await readFile(path.join(destination, 'app.mjs'), 'utf8'), /Replay captured evidence/);
+      const originalLaunch = JSON.parse(await readFile(path.join(root, 'fixtures', 'dbc-solami-recording-2026-10-09.json'), 'utf8'));
+      assert.match(await readFile(path.join(destination, 'launch.html'), 'utf8'), /name="sourcebrief-launch-mode" content="recorded"/);
+      for (const original of originalLaunch.briefs) {
+        const replay = JSON.parse(await readFile(path.join(destination, 'data', 'launch', `${original.pool.id}.json`), 'utf8'));
+        assert.equal(replay.provenance.mode, 'recorded');
+        assert.equal(replay.provenance.fetchedAt, original.provenance.fetchedAt);
+        assert.equal(replay.provenance.slot, original.provenance.slot);
+        assert.equal(replay.provenance.snapshotHash, original.provenance.snapshotHash);
+        assert.equal(replay.provenance.provider, 'Solami');
+      }
     });
     await t.test('catalogue and replay preserve real recorded timestamps and volumes', async () => {
       const fake = transport(); const fetch = createRecordedFetch({ baseURL, fetchImpl: fake.fetchImpl, cryptoImpl: webcrypto });

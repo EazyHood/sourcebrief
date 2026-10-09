@@ -1,0 +1,101 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:07.000
+Read the rule before the price.
+Live Panta response · resolution wording and indicative values
+
+2
+00:00:07.000 --> 00:00:13.000
+Keep a checkpoint before refreshing.
+Saved locally in this browser · no account or wallet required
+
+3
+00:00:13.000 --> 00:00:15.000
+Refresh the source.
+Direct Panta request · waiting state captured as it happened
+
+4
+00:00:15.000 --> 00:00:22.000
+This response omits rules and prices.
+The application preserves missing fields instead of inventing them
+
+5
+00:00:22.000 --> 00:00:30.000
+Eight tracked fields changed.
+The earlier wording remains in the checkpoint; the new capture says “Not supplied”
+
+6
+00:00:30.000 --> 00:00:40.000
+Read a real DBC pool on Solana mainnet.
+Solami supplies account data; Sourcebrief decodes Meteora configuration
+
+7
+00:00:40.000 --> 00:00:47.000
+Keep the slot and capture time.
+A dated checkpoint makes the next review comparable
+
+8
+00:00:47.000 --> 00:00:56.000
+A threshold is not completed migration.
+Configured liquidity shares are not verified destination balances
+
+9
+00:00:56.000 --> 00:01:03.000
+Inspect the curve and fee terms.
+The interface distinguishes pool configuration from execution conditions
+
+10
+00:01:03.000 --> 00:01:08.000
+Enter a 0.05 SOL scenario.
+No wallet, signature, transaction simulation or order
+
+11
+00:01:08.000 --> 00:01:11.000
+Capture fresh accounts, then calculate.
+The calculation uses the official Meteora SDK
+
+12
+00:01:11.000 --> 00:01:24.000
+A mathematical result, not an executed trade.
+0.05 SOL input · 0.001 SOL SDK fee · source slot 455038532
+
+13
+00:01:24.000 --> 00:01:32.000
+Compare facts, not only timestamps.
+No tracked facts changed here; that does not prove no on-chain activity
+
+14
+00:01:32.000 --> 00:01:42.000
+Trace the account context and source hashes.
+The capture records provider, mainnet, commitment, slot and configuration
+
+15
+00:01:42.000 --> 00:01:47.000
+Export the dated record as JSON.
+The application confirms export with source timing and limitations
+
+16
+00:01:47.000 --> 00:01:52.000
+Take the same evidence as Markdown.
+A portable brief preserves the source context for a reviewer
+
+17
+00:01:52.000 --> 00:01:55.000
+Read a second pool with a transfer hook.
+Another real Solami request · loading state preserved
+
+18
+00:01:55.000 --> 00:02:04.000
+Inspect the configuration. Keep its limits.
+An external transfer hook changes what can be asserted about execution
+
+19
+00:02:04.000 --> 00:02:12.000
+Unsupported execution stays unsupported.
+The application returns “Estimate unavailable” instead of a plausible number
+
+20
+00:02:12.000 --> 00:02:20.000
+Sourcebrief: evidence you can inspect.
+sourcebrief.jhonatandelrio9.workers.dev · read-only research

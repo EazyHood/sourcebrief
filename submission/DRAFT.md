@@ -102,4 +102,4 @@ The local provenance record dates this candidate to 2 October 2026. Original cod
 | Panta Earn submission | Not submitted; publishing the project is not an entry receipt |
 | Colosseum project/profile links | Pending verified official entry, subject to the one-product/team gate |
 
-Colosseum acceptance and the existing product/team slot remain gates. Do not create a competing entry to make this draft appear complete. A Panta Earn entry cannot substitute for the official Colosseum submission.
+On 2 October 2026 the user confirmed that no project is currently entered in Crypto World's Fair. Official Colosseum login, registration, consent and submission remain pending; the user's confirmation is not a portal receipt. A Panta Earn entry cannot substitute for the official Colosseum submission.

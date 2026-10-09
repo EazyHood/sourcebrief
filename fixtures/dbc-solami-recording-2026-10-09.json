@@ -1,0 +1,1073 @@
+{
+  "type": "sourcebrief-dbc-capture",
+  "version": 1,
+  "capturedAt": "2026-10-09T22:49:58.826Z",
+  "network": "mainnet-beta",
+  "provider": "Solami",
+  "requests": [
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "7chtSL1MVDZ3kMShbnWH8htZE5gayon4t4NMF21cKyqn",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed"
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030225
+        },
+        "value": {
+          "data": [
+            "1eAF0WJFd1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8TApE57fTrchYyi8qe58CFzLJ8zBId2Du1EtNxx+p1GW9IxB+lQoWn0Mv1MP3ImwcJ2CW26SYv/mj11vXExSy5Lkbrm7pBOtYfTnOOe4ZORPart6yoPj+RwDjcy8uNyzW3sE5jQfYOO48Jt8+FoF30NomWVUOFDU7KP2EAazbpOizvGbzon5t3ZtHkT/6sHRUi8qsBZxIBnJwgKOtX/pSoyRKAvCejoLovBrhQEAAAAAAAAAAAAAADRrlQEAAAAAAAAAAAAAAABA2y8AAAAAABrl20CkKw0AAAAAAAAAAACRvRQbAAAAAAAAAAAAAAAAAAAAAAAAAACshpbOAAAAAAAAAAAAAAAA3x3xlAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 2804160,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 424
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:55.320Z",
+        "slot": 455030225,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "HEVrDPnnJkd7s1GR9TKEZdnBKeNDBwoMBwRkRumSXnQ8",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030225
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030226
+        },
+        "value": {
+          "data": [
+            "GmwOe3TmgSsGm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAATrD+XeQCgjEfOi3L00jcAGDNzh3E03l5gHTplSiDMWylvSMQfpUKFp9DL9TD9yJsHCdgltukmL/5o9db1xMUssALTEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAkAAABkAAAABgEAAAAAAAAAAAAAALACcfeMwIQLABJlyhMAAAAfItprGfZbAnsU/n9IVy4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSns7bgDQAAZKeztuANAgDIAAAAxAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+dTuTDikLAAAAAAAAAAAA5Dn3oty9FgAAAAAAAAAAAACA9gWeJVwazMlQmbvBAAAubv5/SFcuAAAAAAAAAAAAAMAwVc8efbppjQZGnHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 5974080,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 1048
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:55.477Z",
+        "slot": 455030226,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getMultipleAccounts",
+      "params": [
+        [
+          "7chtSL1MVDZ3kMShbnWH8htZE5gayon4t4NMF21cKyqn",
+          "HEVrDPnnJkd7s1GR9TKEZdnBKeNDBwoMBwRkRumSXnQ8",
+          "AtQYwjZdLHkrCkhbTmKASASFiErd9nFyzNFATY37BAGS",
+          "So11111111111111111111111111111111111111112",
+          "SysvarC1ock11111111111111111111111111111111"
+        ],
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030226
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030227
+        },
+        "value": [
+          {
+            "data": [
+              "1eAF0WJFd1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8TApE57fTrchYyi8qe58CFzLJ8zBId2Du1EtNxx+p1GW9IxB+lQoWn0Mv1MP3ImwcJ2CW26SYv/mj11vXExSy5Lkbrm7pBOtYfTnOOe4ZORPart6yoPj+RwDjcy8uNyzW3sE5jQfYOO48Jt8+FoF30NomWVUOFDU7KP2EAazbpOizvGbzon5t3ZtHkT/6sHRUi8qsBZxIBnJwgKOtX/pSoyRKAvCejoLovBrhQEAAAAAAAAAAAAAADRrlQEAAAAAAAAAAAAAAABA2y8AAAAAABrl20CkKw0AAAAAAAAAAACRvRQbAAAAAAAAAAAAAAAAAAAAAAAAAACshpbOAAAAAAAAAAAAAAAA3x3xlAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 2804160,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 424
+          },
+          {
+            "data": [
+              "GmwOe3TmgSsGm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAATrD+XeQCgjEfOi3L00jcAGDNzh3E03l5gHTplSiDMWylvSMQfpUKFp9DL9TD9yJsHCdgltukmL/5o9db1xMUssALTEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAkAAABkAAAABgEAAAAAAAAAAAAAALACcfeMwIQLABJlyhMAAAAfItprGfZbAnsU/n9IVy4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGSns7bgDQAAZKeztuANAgDIAAAAxAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+dTuTDikLAAAAAAAAAAAA5Dn3oty9FgAAAAAAAAAAAACA9gWeJVwazMlQmbvBAAAubv5/SFcuAAAAAAAAAAAAAMAwVc8efbppjQZGnHcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 5974080,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 1048
+          },
+          {
+            "data": [
+              "AAAAANpjaB9yhrzIBnGeLCtQogFXJDv8lmixFSC8U4Q+3NsIAABkp7O24A0JAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1066800,
+            "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "space": 82
+          },
+          {
+            "data": [
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1851927037390,
+            "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "space": 82
+          },
+          {
+            "data": [
+              "0zUfGwAAAAD4/MhqAAAAAB0EAAAAAAAAHgQAAAAAAACTb8lqAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1169280,
+            "owner": "Sysvar1111111111111111111111111111111111111",
+            "space": 40
+          }
+        ]
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:55.637Z",
+        "slot": 455030227,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "5ktYWjqP8xYTpsiATvUNgW3r62hc9Vg9uQHsjeayvDvo",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed"
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030234
+        },
+        "value": {
+          "data": [
+            "1eAF0WJFd1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjUt9Q+Xr9k9D5c93vtKD1yYZzA7jF84G5q8uIvJWOUN8a5tE8U6idXXEhw5VVymA1/jA7zaleO+7xjoOyQ0uj4xtzpMDpl3H+8yfvXdZ9plm6WFO/X6l9nBXiAmTAZ72N/BfQ5/8/zu8Ml7KibXcZ8unj27x2746C5kzOgr5Esx7TvFvoVqkUx9xVJHeyGEDeHgeiIRgXgJC0I4S0ddOtBMULUM2AIAOJ0HAAAAAACse5c5FwAAAAAAAAAAAAAAs+5d5lwAAAAAAAAAAAAAAO6nxks3iUEAAAAAAAAAAADELx8bAAAAAAEBAAADAAAArHuXORcAAAAAAAAAAAAAALPuXeZcAAAAAAAAAAAAAABAbslqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAaEZ8OwAAAADmAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 2804160,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 424
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:56.905Z",
+        "slot": 455030234,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "9crASPjXDYGhoRw7QdNgGWJMFbK2n9gM4jYzzJHRmet",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030234
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030235
+        },
+        "value": {
+          "data": [
+            "GmwOe3TmgSsGm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAARgJDvmzSGB/bO1QiZvjtZgt9P56Swhupe3snjpYBwMyGAkO+bNIYH9s7VCJm+O1mC30/npLCG6l7eyeOlgHAzKgJSYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCwAAECcBAAEAAACAUQEAAAAAAAAAAAAAAAAAAAAAAAEBAAYAAQAAAABZBgEAAQAAAAAAAAAAADEzdu9xtQAAOJ0HAAAAAADZg7kudAAAAO6nxks3iUEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMakfo0DAACAxqR+jQMAAQAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4o8K/9ikAAAAAAAAAAAAA7qfGSzeJQQAAAAAAAAAAAKOnQd36kCIGcTrRHQAAAACbV2lOqRpchLHE/v8AAAAAYu745eyfGu9ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 5974080,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 1048
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:57.069Z",
+        "slot": 455030235,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getMultipleAccounts",
+      "params": [
+        [
+          "5ktYWjqP8xYTpsiATvUNgW3r62hc9Vg9uQHsjeayvDvo",
+          "9crASPjXDYGhoRw7QdNgGWJMFbK2n9gM4jYzzJHRmet",
+          "5BnFGuaNDNq3NFpMsfnEWC7zd7hUm9LQfvd3cPXP3EdG",
+          "So11111111111111111111111111111111111111112",
+          "SysvarC1ock11111111111111111111111111111111"
+        ],
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030235
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030235
+        },
+        "value": [
+          {
+            "data": [
+              "1eAF0WJFd1wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjUt9Q+Xr9k9D5c93vtKD1yYZzA7jF84G5q8uIvJWOUN8a5tE8U6idXXEhw5VVymA1/jA7zaleO+7xjoOyQ0uj4xtzpMDpl3H+8yfvXdZ9plm6WFO/X6l9nBXiAmTAZ72N/BfQ5/8/zu8Ml7KibXcZ8unj27x2746C5kzOgr5Esx7TvFvoVqkUx9xVJHeyGEDeHgeiIRgXgJC0I4S0ddOtBMULUM2AIAOJ0HAAAAAACse5c5FwAAAAAAAAAAAAAAs+5d5lwAAAAAAAAAAAAAAO6nxks3iUEAAAAAAAAAAADELx8bAAAAAAEBAAADAAAArHuXORcAAAAAAAAAAAAAALPuXeZcAAAAAAAAAAAAAABAbslqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAaEZ8OwAAAADmAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 2804160,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 424
+          },
+          {
+            "data": [
+              "GmwOe3TmgSsGm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAARgJDvmzSGB/bO1QiZvjtZgt9P56Swhupe3snjpYBwMyGAkO+bNIYH9s7VCJm+O1mC30/npLCG6l7eyeOlgHAzKgJSYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABCwAAECcBAAEAAACAUQEAAAAAAAAAAAAAAAAAAAAAAAEBAAYAAQAAAABZBgEAAQAAAAAAAAAAADEzdu9xtQAAOJ0HAAAAAADZg7kudAAAAO6nxks3iUEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMakfo0DAACAxqR+jQMAAQAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4o8K/9ikAAAAAAAAAAAAA7qfGSzeJQQAAAAAAAAAAAKOnQd36kCIGcTrRHQAAAACbV2lOqRpchLHE/v8AAAAAYu745eyfGu9ytQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 5974080,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 1048
+          },
+          {
+            "data": [
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIDGpH6NAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD4xtzpMDpl3H+8yfvXdZ9plm6WFO/X6l9nBXiAmTAZ7EwCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPjG3OkwOmXcf7zJ+9d1n2mWbpYU79fqX2cFeICZMBnsLAAAAQXVyYSBGYXJtZXIFAAAAUEVUQUhQAAAAaHR0cHM6Ly9pcGZzLmlvL2lwZnMvYmFma3JlaWRreHRwdXRmdnVrdm16ZTV4cnpyYjR1cnN3aG5hb2x0Y3E1YTMya2hsdnlubGx0dHJlZGkAAAAA",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 2753360,
+            "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+            "space": 414
+          },
+          {
+            "data": [
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1851927037390,
+            "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "space": 82
+          },
+          {
+            "data": [
+              "2zUfGwAAAAD4/MhqAAAAAB0EAAAAAAAAHgQAAAAAAACUb8lqAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1169280,
+            "owner": "Sysvar1111111111111111111111111111111111111",
+            "space": 40
+          }
+        ]
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:57.227Z",
+        "slot": 455030235,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "6tdNjDNFzDdEuKyyvtKtke4Zuarp3MyZwCiERwTsq5Xg",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed"
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030240
+        },
+        "value": {
+          "data": [
+            "7du4Fyq9qSMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAze7X4WrIBts0fOOLRim3TYPdqUUiAOPz39Vfee7Bf43O7hboPm36mgLUp1utapm9xOEbTS5scBfjkixoYQUbKm8wB5XXv+ddVZbj6hqDPYYO5NuX+lY0dVTLB+e9Sf3rCVALKA6KtemIxzDPb4bKGMX1dReEjgG0Cdni+7VZ476xBM25J465pWOmp96vAgM9Fa0Oc9KFENsud7I0dC54Q7iL634hTQAAiSG3UGoAAAAAAAAAAAAAAPnAdhAAAAAAAAAAAAAAAACGJb4GAAAAAH5czSKdIZATAAAAAAAAAABqh75qAAAAAAEAAAAAAAAAAAAAAAAAAAAf7a8wNgAAAAAAAAAAAAAA0YYv19gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 2804160,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 424
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:58.505Z",
+        "slot": 455030240,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getAccountInfo",
+      "params": [
+        "Ersp7R3LNTAY8ff4SE2ehGffLrBrVRdGNe5jmeGpkfkp",
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030240
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030241
+        },
+        "value": {
+          "data": [
+            "KNzC+ynHe/0Gm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAARrG1YWATwx7rMspZBAlnYnzqdzjQOQXJ0EL0UzpsinxGsbVhYBPDHusyylkECWdifOp3ONA5BcnQQvRTOmyKfGAlpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQYAAQBkAAAABgEAAgoAAAAAAAAAAC5unkQuiAMAD8EORecFAABbR40kUAUAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMakfo0DAACAxqR+jQMAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIA151eOKrAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAOLIX911fR7K+pqhM/EFAACbV2lOqRpchLHE/v8AAAAA+M2TAHgAAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNiJl+evxSiI5sZQ6B9jfLzN8uWYqyn8p2A1DQBHCu4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+            "base64"
+          ],
+          "executable": false,
+          "lamports": 6380480,
+          "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+          "space": 1128
+        }
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:58.668Z",
+        "slot": 455030241,
+        "commitment": "confirmed",
+        "method": "getAccountInfo",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    },
+    {
+      "method": "getMultipleAccounts",
+      "params": [
+        [
+          "6tdNjDNFzDdEuKyyvtKtke4Zuarp3MyZwCiERwTsq5Xg",
+          "Ersp7R3LNTAY8ff4SE2ehGffLrBrVRdGNe5jmeGpkfkp",
+          "8V2jTnUbfTDkzznAD2BwhCRR1jJrin3Exj5zPoU2AmJA",
+          "So11111111111111111111111111111111111111112",
+          "SysvarC1ock11111111111111111111111111111111"
+        ],
+        {
+          "encoding": "base64",
+          "commitment": "confirmed",
+          "minContextSlot": 455030241
+        }
+      ],
+      "result": {
+        "context": {
+          "slot": 455030241
+        },
+        "value": [
+          {
+            "data": [
+              "7du4Fyq9qSMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAze7X4WrIBts0fOOLRim3TYPdqUUiAOPz39Vfee7Bf43O7hboPm36mgLUp1utapm9xOEbTS5scBfjkixoYQUbKm8wB5XXv+ddVZbj6hqDPYYO5NuX+lY0dVTLB+e9Sf3rCVALKA6KtemIxzDPb4bKGMX1dReEjgG0Cdni+7VZ476xBM25J465pWOmp96vAgM9Fa0Oc9KFENsud7I0dC54Q7iL634hTQAAiSG3UGoAAAAAAAAAAAAAAPnAdhAAAAAAAAAAAAAAAACGJb4GAAAAAH5czSKdIZATAAAAAAAAAABqh75qAAAAAAEAAAAAAAAAAAAAAAAAAAAf7a8wNgAAAAAAAAAAAAAA0YYv19gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAABQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 2804160,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 424
+          },
+          {
+            "data": [
+              "KNzC+ynHe/0Gm4hX/quBhPtof2NGGMA12sQ53BrrO1WYoPAAAAAAARrG1YWATwx7rMspZBAlnYnzqdzjQOQXJ0EL0UzpsinxGsbVhYBPDHusyylkECWdifOp3ONA5BcnQQvRTOmyKfGAlpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQYAAQBkAAAABgEAAgoAAAAAAAAAAC5unkQuiAMAD8EORecFAABbR40kUAUAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgMakfo0DAACAxqR+jQMAAAF4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIA151eOKrAQAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAOLIX911fR7K+pqhM/EFAACbV2lOqRpchLHE/v8AAAAA+M2TAHgAAAB4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADNiJl+evxSiI5sZQ6B9jfLzN8uWYqyn8p2A1DQBHCu4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 6380480,
+            "owner": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+            "space": 1128
+          },
+          {
+            "data": [
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAnSgti32NAwAGAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARIAQAAaxtWFgE8Me6zLKWQQJZ2J86nc40DkFydBC9FM6bIp8W8wB5XXv+ddVZbj6hqDPYYO5NuX+lY0dVTLB+e9Sf3rDgBAANpjaB9yhrzIBnGeLCtQogFXJDv8lmixFSC8U4Q+3NsIM2ImX56/FKIjmxlDoH2N8vM3y5ZirKfynYDUNAEcK7gTALAAGsbVhYBPDHusyylkECWdifOp3ONA5BcnQQvRTOmyKfFvMAeV17/nXVWW4+oagz2GDuTbl/pWNHVUywfnvUn96xcAAABGZWFybGVzcyBvZiBtaXNzaW5nIG91dAQAAABGT01PRQAAAGh0dHBzOi8vZ2F0ZXdheS5pcnlzLnh5ei80U01KY2hIdDlIbktWQU1MTTh4TVhmSmF2OEc4Mml5S0JldjF3VlltYTNzUwAAAAA=",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 3098800,
+            "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+            "space": 482
+          },
+          {
+            "data": [
+              "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1851927037390,
+            "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+            "space": 82
+          },
+          {
+            "data": [
+              "4TUfGwAAAAD4/MhqAAAAAB0EAAAAAAAAHgQAAAAAAACWb8lqAAAAAA==",
+              "base64"
+            ],
+            "executable": false,
+            "lamports": 1169280,
+            "owner": "Sysvar1111111111111111111111111111111111111",
+            "space": 40
+          }
+        ]
+      },
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:58.825Z",
+        "slot": 455030241,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "version": 1,
+      "type": "dbc-launch",
+      "pool": {
+        "id": "7chtSL1MVDZ3kMShbnWH8htZE5gayon4t4NMF21cKyqn",
+        "config": "HEVrDPnnJkd7s1GR9TKEZdnBKeNDBwoMBwRkRumSXnQ8",
+        "creator": "BAGSB9TpGrZxQbEsrEznv5jXXdwyP6AXerN8aVRiAmcv",
+        "baseMint": "AtQYwjZdLHkrCkhbTmKASASFiErd9nFyzNFATY37BAGS",
+        "quoteMint": "So11111111111111111111111111111111111111112",
+        "accountType": "virtualPool",
+        "transferHookProgram": null
+      },
+      "tokens": {
+        "base": {
+          "mint": "AtQYwjZdLHkrCkhbTmKASASFiErd9nFyzNFATY37BAGS",
+          "symbol": null,
+          "decimals": 9,
+          "supplyRaw": "1000000000000000000",
+          "supply": "1000000000",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "SPL Token",
+          "extensionsPresent": false,
+          "accountHash": "9764d602784167ac9f68200e083d270c8bccdebef4d79155a828a282bdfd916d"
+        },
+        "quote": {
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "decimals": 9,
+          "supplyRaw": "0",
+          "supply": "0",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "SPL Token",
+          "extensionsPresent": false,
+          "accountHash": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+        }
+      },
+      "reserves": {
+        "baseRaw": "809094056895877516",
+        "quoteRaw": "6533410978",
+        "base": "809094056.895877516",
+        "quote": "6.533410978"
+      },
+      "migration": {
+        "status": "Bonding curve active",
+        "target": "DAMM v2",
+        "targetPool": "6Q1XXnsKmAm2U4GobbiJrkvUQUzrX8AasQHc2EKNvEDi",
+        "targetVerified": false,
+        "graduated": false,
+        "curveComplete": false,
+        "flag": 0,
+        "progressFlag": 0,
+        "thresholdRaw": "85000000000",
+        "threshold": "85",
+        "remainingRaw": "78466589022",
+        "remaining": "78.466589022",
+        "progressPercent": "7.6863",
+        "finishCurveTimestamp": "0",
+        "migrationFeePercent": 0,
+        "protocolLiquidityMigrationFeeBps": 20,
+        "configuredLiquidity": {
+          "partnerPermanentPercent": 100,
+          "creatorPermanentPercent": 0,
+          "partnerUnlockedPercent": 0,
+          "creatorUnlockedPercent": 0,
+          "partnerVestedPercent": 0,
+          "creatorVestedPercent": 0
+        }
+      },
+      "fees": {
+        "mode": "Fixed / linear schedule",
+        "baseBps": "200",
+        "baseLabel": "Current base fee for the entered quote-token input",
+        "cliffBps": "200",
+        "dynamicEnabled": false,
+        "creatorSharePercent": 0,
+        "collectedIn": "quote token",
+        "destinationBps": "200",
+        "feeClaimer": "4xPy6yiz5WWQBbcDb7Z7bqkyBFj9Xos56kE1XriC2zNu"
+      },
+      "curve": {
+        "currentPrice": "0.000000040387132492",
+        "startPrice": "0.000000028999999999",
+        "migrationPrice": "0.000000499999999998",
+        "priceUnit": "quote tokens per base token",
+        "exactPrice": {
+          "numerator": "13743029037737230069899857200804000000000",
+          "denominator": "340282366920938463463374607431768211456000000000"
+        },
+        "displayRounding": "down to 18 decimal places",
+        "sqrtPriceRaw": "3707159160022298",
+        "segments": [
+          {
+            "index": 1,
+            "price": "0.000000120415945787",
+            "sqrtPriceRaw": "6401204812200420",
+            "liquidityRaw": "3929368168768468756200000000000000",
+            "active": true
+          },
+          {
+            "index": 2,
+            "price": "0.000000499999999999",
+            "sqrtPriceRaw": "13043817825332782",
+            "liquidityRaw": "2425988008058820449100000000000000",
+            "active": false
+          }
+        ],
+        "activation": {
+          "type": "slot",
+          "point": "454344081",
+          "currentPoint": "455030227",
+          "active": true
+        }
+      },
+      "quote": {
+        "status": "available",
+        "reason": null,
+        "inputAmount": "0.1",
+        "inputRaw": "100000000",
+        "slippageBps": 50,
+        "direction": "quote-to-base",
+        "simulation": true,
+        "method": "Meteora SDK 1.5.13 swapQuote",
+        "note": "Local mathematical scenario on captured accounts. No transaction simulation, signing, broadcast or execution.",
+        "outputRaw": "2420973106714988",
+        "outputAmount": "2420973.106714988",
+        "minimumOutputRaw": "2408868241181413",
+        "minimumOutputAmount": "2408868.241181413",
+        "actualInputRaw": "98000000",
+        "actualInputAmount": "0.098",
+        "feeRaw": "2000000",
+        "feeAmount": "0.002",
+        "feeToken": "quote",
+        "tradingFeeRaw": "1600000",
+        "protocolFeeRaw": "400000",
+        "referralFeeRaw": "0",
+        "nextPrice": "0.000000040572260194"
+      },
+      "findings": [
+        {
+          "code": "THRESHOLD_NOT_REACHED",
+          "severity": "info",
+          "title": "Threshold still ahead",
+          "detail": "78.466589022 quote tokens remain to the configured reserve threshold at this snapshot. Future movement is not predicted."
+        },
+        {
+          "code": "CONFIGURED_LOCKS",
+          "severity": "info",
+          "title": "Liquidity split is configuration evidence",
+          "detail": "Configured permanent, vested and unlocked shares do not verify ownership or balances in the destination pool."
+        }
+      ],
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:55.637Z",
+        "slot": 455030227,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false,
+        "clockSlot": "455030227",
+        "clockUnixTimestamp": "1791586195",
+        "program": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+        "decoder": "Meteora DBC SDK 1.5.13",
+        "hashes": [
+          {
+            "role": "pool",
+            "address": "7chtSL1MVDZ3kMShbnWH8htZE5gayon4t4NMF21cKyqn",
+            "sha256": "f213b4a416aa7238fc97b59bb80ae2c9719323cfa2d0efbbf622d629353229f9"
+          },
+          {
+            "role": "config",
+            "address": "HEVrDPnnJkd7s1GR9TKEZdnBKeNDBwoMBwRkRumSXnQ8",
+            "sha256": "0c9c3269d5c1fc47f6a76641999581ef1b23ad29df42cf7dff9a52d5c6bfd3e6"
+          },
+          {
+            "role": "base-mint",
+            "address": "AtQYwjZdLHkrCkhbTmKASASFiErd9nFyzNFATY37BAGS",
+            "sha256": "9764d602784167ac9f68200e083d270c8bccdebef4d79155a828a282bdfd916d"
+          },
+          {
+            "role": "quote-mint",
+            "address": "So11111111111111111111111111111111111111112",
+            "sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+          },
+          {
+            "role": "clock",
+            "address": "SysvarC1ock11111111111111111111111111111111",
+            "sha256": "bc556ccb391afbb87fae34b23c3d3cf65ec33db460f40d11ab45cc75ad17e280"
+          }
+        ],
+        "snapshotHash": "2f5ffbb69ca20fa6aaa3b496a7009cb1790ca15c7cfe822d7118ae21b7d730bd",
+        "scope": "Five accounts from one RPC context. Configuration and arithmetic do not prove asset safety, future price, users or destination liquidity."
+      }
+    },
+    {
+      "version": 1,
+      "type": "dbc-launch",
+      "pool": {
+        "id": "5ktYWjqP8xYTpsiATvUNgW3r62hc9Vg9uQHsjeayvDvo",
+        "config": "9crASPjXDYGhoRw7QdNgGWJMFbK2n9gM4jYzzJHRmet",
+        "creator": "wS3ZyH5XVzXyVzi7DXvQqGgLnn4R4RCFfAVXwxrCJS5",
+        "baseMint": "5BnFGuaNDNq3NFpMsfnEWC7zd7hUm9LQfvd3cPXP3EdG",
+        "quoteMint": "So11111111111111111111111111111111111111112",
+        "accountType": "virtualPool",
+        "transferHookProgram": null
+      },
+      "tokens": {
+        "base": {
+          "mint": "5BnFGuaNDNq3NFpMsfnEWC7zd7hUm9LQfvd3cPXP3EdG",
+          "symbol": null,
+          "decimals": 6,
+          "supplyRaw": "1000000000000000",
+          "supply": "1000000000",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "Token-2022",
+          "extensionsPresent": true,
+          "accountHash": "8e59af067e76ad097b23450571e604ba2f38199cc0377841193ee2a11a01cb00"
+        },
+        "quote": {
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "decimals": 9,
+          "supplyRaw": "0",
+          "supply": "0",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "SPL Token",
+          "extensionsPresent": false,
+          "accountHash": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+        }
+      },
+      "reserves": {
+        "baseRaw": "800499046567120",
+        "quoteRaw": "499000",
+        "base": "800499046.56712",
+        "quote": "0.000499"
+      },
+      "migration": {
+        "status": "Migrated",
+        "target": "DAMM v2",
+        "targetPool": "8nnNeCqRgR1CTCTy4C4umxnHmfvsWE85gwhKcQqtZ9a7",
+        "targetVerified": false,
+        "graduated": true,
+        "curveComplete": true,
+        "flag": 1,
+        "progressFlag": 3,
+        "thresholdRaw": "499000",
+        "threshold": "0.000499",
+        "remainingRaw": "0",
+        "remaining": "0",
+        "progressPercent": "100",
+        "finishCurveTimestamp": "1791585856",
+        "migrationFeePercent": 0,
+        "protocolLiquidityMigrationFeeBps": 20,
+        "configuredLiquidity": {
+          "partnerPermanentPercent": 0,
+          "creatorPermanentPercent": 0,
+          "partnerUnlockedPercent": 0,
+          "creatorUnlockedPercent": 89,
+          "partnerVestedPercent": 0,
+          "creatorVestedPercent": 11
+        }
+      },
+      "fees": {
+        "mode": "Fixed / linear schedule",
+        "baseBps": "25",
+        "baseLabel": "Current base fee for the entered quote-token input",
+        "cliffBps": "25",
+        "dynamicEnabled": false,
+        "creatorSharePercent": 0,
+        "collectedIn": "output token",
+        "destinationBps": "10",
+        "feeClaimer": "2cpoBB2ZJpaPnfEX49jGHpbdAV8RA4ejW4pP5LaYtiEu"
+      },
+      "curve": {
+        "currentPrice": "0.000000000999999999",
+        "startPrice": "0.000000000000006256",
+        "migrationPrice": "0.000000000999999999",
+        "priceUnit": "quote tokens per base token",
+        "exactPrice": {
+          "numerator": "340282366920938403843497761202500000000",
+          "denominator": "340282366920938463463374607431768211456000000000"
+        },
+        "displayRounding": "down to 18 decimal places",
+        "sqrtPriceRaw": "18446744073709550",
+        "segments": [
+          {
+            "index": 1,
+            "price": "0.000000000999999999",
+            "sqrtPriceRaw": "18446744073709550",
+            "liquidityRaw": "9228006763298626379697989539",
+            "active": false
+          },
+          {
+            "index": 2,
+            "price": "18446050713735950.759526560806235211",
+            "sqrtPriceRaw": "79226673521066979257578248091",
+            "liquidityRaw": "856868491482972951211618",
+            "active": true
+          }
+        ],
+        "activation": {
+          "type": "slot",
+          "point": "455028676",
+          "currentPoint": "455030235",
+          "active": true
+        }
+      },
+      "quote": {
+        "status": "unavailable",
+        "reason": "DBC curve trading has ended; quote the destination AMM separately.",
+        "inputAmount": "0.1",
+        "inputRaw": "100000000",
+        "slippageBps": 50,
+        "direction": "quote-to-base",
+        "simulation": true,
+        "method": "Meteora SDK 1.5.13 swapQuote",
+        "note": "Local mathematical scenario on captured accounts. No transaction simulation, signing, broadcast or execution."
+      },
+      "findings": [
+        {
+          "code": "MIGRATED",
+          "severity": "info",
+          "title": "DBC trading has ended",
+          "detail": "The pool migration flag is set. A residual DBC reserve is not current DAMM liquidity. Inspect the derived destination separately."
+        },
+        {
+          "code": "CONFIGURED_LOCKS",
+          "severity": "info",
+          "title": "Liquidity split is configuration evidence",
+          "detail": "Configured permanent, vested and unlocked shares do not verify ownership or balances in the destination pool."
+        }
+      ],
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:57.227Z",
+        "slot": 455030235,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false,
+        "clockSlot": "455030235",
+        "clockUnixTimestamp": "1791586196",
+        "program": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+        "decoder": "Meteora DBC SDK 1.5.13",
+        "hashes": [
+          {
+            "role": "pool",
+            "address": "5ktYWjqP8xYTpsiATvUNgW3r62hc9Vg9uQHsjeayvDvo",
+            "sha256": "9fbf3d92160441fcc35d30e152c8d97e7d7b81b1ce698035853f592c49b5c543"
+          },
+          {
+            "role": "config",
+            "address": "9crASPjXDYGhoRw7QdNgGWJMFbK2n9gM4jYzzJHRmet",
+            "sha256": "271450b7fcc87b74d05b6e800904c4e0eab9f26eafda1a27314a66824dc8b905"
+          },
+          {
+            "role": "base-mint",
+            "address": "5BnFGuaNDNq3NFpMsfnEWC7zd7hUm9LQfvd3cPXP3EdG",
+            "sha256": "8e59af067e76ad097b23450571e604ba2f38199cc0377841193ee2a11a01cb00"
+          },
+          {
+            "role": "quote-mint",
+            "address": "So11111111111111111111111111111111111111112",
+            "sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+          },
+          {
+            "role": "clock",
+            "address": "SysvarC1ock11111111111111111111111111111111",
+            "sha256": "df994dbfbc199867c4f9c6d9959ff87037d01c9565f7ee50a698549e39c02e1e"
+          }
+        ],
+        "snapshotHash": "fa49b16a88f41552b07245598366e3d4784b1a84d8c7190bdf9752106516c609",
+        "scope": "Five accounts from one RPC context. Configuration and arithmetic do not prove asset safety, future price, users or destination liquidity."
+      }
+    },
+    {
+      "version": 1,
+      "type": "dbc-launch",
+      "pool": {
+        "id": "6tdNjDNFzDdEuKyyvtKtke4Zuarp3MyZwCiERwTsq5Xg",
+        "config": "Ersp7R3LNTAY8ff4SE2ehGffLrBrVRdGNe5jmeGpkfkp",
+        "creator": "EvmZ6F9xzxCycRsh2qQfEk8gS5iERXTgcJULBU495hyT",
+        "baseMint": "8V2jTnUbfTDkzznAD2BwhCRR1jJrin3Exj5zPoU2AmJA",
+        "quoteMint": "So11111111111111111111111111111111111111112",
+        "accountType": "transferHookPool",
+        "transferHookProgram": "4Tabcoy1niosiNAGHMruLBFscgJWXZsVF3pfij3FqMB5"
+      },
+      "tokens": {
+        "base": {
+          "mint": "8V2jTnUbfTDkzznAD2BwhCRR1jJrin3Exj5zPoU2AmJA",
+          "symbol": null,
+          "decimals": 6,
+          "supplyRaw": "999995275552925",
+          "supply": "999995275.552925",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "Token-2022",
+          "extensionsPresent": true,
+          "accountHash": "7e3f53f215bf760b498f7c17aff07a9645faa6fc705e24aa0d6f539bf114b778"
+        },
+        "quote": {
+          "mint": "So11111111111111111111111111111111111111112",
+          "symbol": "SOL",
+          "decimals": 9,
+          "supplyRaw": "0",
+          "supply": "0",
+          "mintAuthority": null,
+          "freezeAuthority": null,
+          "program": "SPL Token",
+          "extensionsPresent": false,
+          "accountHash": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+        }
+      },
+      "reserves": {
+        "baseRaw": "84806258625464",
+        "quoteRaw": "456620712329",
+        "base": "84806258.625464",
+        "quote": "456.620712329"
+      },
+      "migration": {
+        "status": "Bonding curve active",
+        "target": "DAMM v2",
+        "targetPool": "GiGh8FpsRwWVqkYyKDWbvgFkr7fSWBskEWLSrUUeodcF",
+        "targetVerified": false,
+        "graduated": false,
+        "curveComplete": false,
+        "flag": 0,
+        "progressFlag": 0,
+        "thresholdRaw": "6490854179087",
+        "threshold": "6490.854179087",
+        "remainingRaw": "6034233466758",
+        "remaining": "6034.233466758",
+        "progressPercent": "7.0348",
+        "finishCurveTimestamp": "0",
+        "migrationFeePercent": 10,
+        "protocolLiquidityMigrationFeeBps": 20,
+        "configuredLiquidity": {
+          "partnerPermanentPercent": 100,
+          "creatorPermanentPercent": 0,
+          "partnerUnlockedPercent": 0,
+          "creatorUnlockedPercent": 0,
+          "partnerVestedPercent": 0,
+          "creatorVestedPercent": 0
+        }
+      },
+      "fees": {
+        "mode": "Fixed / linear schedule",
+        "baseBps": "100",
+        "baseLabel": "Current base fee for the entered quote-token input",
+        "cliffBps": "100",
+        "dynamicEnabled": false,
+        "creatorSharePercent": 0,
+        "collectedIn": "quote token",
+        "destinationBps": "120",
+        "feeClaimer": "2oXT6oMgNPfToahWG48QTBPWS9UJ8a7TSSeEoeoSLMGt"
+      },
+      "curve": {
+        "currentPrice": "0.000005839713653001",
+        "startPrice": "0.00000004262786223",
+        "migrationPrice": "0.001",
+        "priceUnit": "quote tokens per base token",
+        "exactPrice": {
+          "numerator": "1987151583983903071421539700199312900000000",
+          "denominator": "340282366920938463463374607431768211456000000000"
+        },
+        "displayRounding": "down to 18 decimal places",
+        "sqrtPriceRaw": "1409663642144431230",
+        "segments": [
+          {
+            "index": 1,
+            "price": "0.001",
+            "sqrtPriceRaw": "18446744073709551616",
+            "liquidityRaw": "120522014288624592630125332252898",
+            "active": true
+          },
+          {
+            "index": 2,
+            "price": "18446050713735950.759526560806235211",
+            "sqrtPriceRaw": "79226673521066979257578248091",
+            "liquidityRaw": "2213609289360551955960",
+            "active": false
+          }
+        ],
+        "activation": {
+          "type": "unix timestamp",
+          "point": "1790871402",
+          "currentPoint": "1791586198",
+          "active": true
+        }
+      },
+      "quote": {
+        "status": "unavailable",
+        "reason": "External transfer-hook execution is not verified.",
+        "inputAmount": "0.1",
+        "inputRaw": "100000000",
+        "slippageBps": 50,
+        "direction": "quote-to-base",
+        "simulation": true,
+        "method": "Meteora SDK 1.5.13 swapQuote",
+        "note": "Local mathematical scenario on captured accounts. No transaction simulation, signing, broadcast or execution."
+      },
+      "findings": [
+        {
+          "code": "THRESHOLD_NOT_REACHED",
+          "severity": "info",
+          "title": "Threshold still ahead",
+          "detail": "6034.233466758 quote tokens remain to the configured reserve threshold at this snapshot. Future movement is not predicted."
+        },
+        {
+          "code": "TRANSFER_HOOK",
+          "severity": "attention",
+          "title": "External transfer hook",
+          "detail": "A separate program can affect transfer behavior. Its execution is outside this evidence brief; no executable quote is inferred."
+        },
+        {
+          "code": "CONFIGURED_LOCKS",
+          "severity": "info",
+          "title": "Liquidity split is configuration evidence",
+          "detail": "Configured permanent, vested and unlocked shares do not verify ownership or balances in the destination pool."
+        }
+      ],
+      "provenance": {
+        "provider": "Solami",
+        "mode": "live",
+        "network": "mainnet-beta",
+        "genesisHash": "5eykt4UsFv8P8NJdTREpY1vzqKqZKvdpKuc147dw2N9d",
+        "fetchedAt": "2026-10-09T22:49:58.825Z",
+        "slot": 455030241,
+        "commitment": "confirmed",
+        "method": "getMultipleAccounts",
+        "endpoint": "https://rpc.solami.dev/sol",
+        "cached": false,
+        "clockSlot": "455030241",
+        "clockUnixTimestamp": "1791586198",
+        "program": "dbcij3LWUppWqq96dh6gJWwBifmcGfLSB5D4DuSMaqN",
+        "decoder": "Meteora DBC SDK 1.5.13",
+        "hashes": [
+          {
+            "role": "pool",
+            "address": "6tdNjDNFzDdEuKyyvtKtke4Zuarp3MyZwCiERwTsq5Xg",
+            "sha256": "669a42162dbc45fe1020434a368d513d735c9ffe87a718e6504c21580cfed473"
+          },
+          {
+            "role": "config",
+            "address": "Ersp7R3LNTAY8ff4SE2ehGffLrBrVRdGNe5jmeGpkfkp",
+            "sha256": "9452f1bb83aaa6b1c6ffbcf71e86460bafe05339a8032755cd4fc4a898c39e76"
+          },
+          {
+            "role": "base-mint",
+            "address": "8V2jTnUbfTDkzznAD2BwhCRR1jJrin3Exj5zPoU2AmJA",
+            "sha256": "7e3f53f215bf760b498f7c17aff07a9645faa6fc705e24aa0d6f539bf114b778"
+          },
+          {
+            "role": "quote-mint",
+            "address": "So11111111111111111111111111111111111111112",
+            "sha256": "b0f919425a529f4971ef8dabd535aec34947d5c8c4885df80dae91635b98c5f3"
+          },
+          {
+            "role": "clock",
+            "address": "SysvarC1ock11111111111111111111111111111111",
+            "sha256": "130771e28678fd7053acc35785a58cabccb01f671f8b077bdca085799951a7dc"
+          }
+        ],
+        "snapshotHash": "6020d8f803ec366742ad8b950e6c4fe8adc42edae5b2a41432f4d38e398c7a2f",
+        "scope": "Five accounts from one RPC context. Configuration and arithmetic do not prove asset safety, future price, users or destination liquidity."
+      }
+    }
+  ],
+  "failures": [],
+  "note": "Real read-only account responses. Quote fields are local mathematical scenarios, never transactions."
+}

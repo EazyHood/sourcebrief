@@ -4,6 +4,8 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { ApiError } from './src/errors.mjs';
 import { serviceFromEnvironment } from './src/panta.mjs';
+import { solamiFromEnvironment } from './src/solami.mjs';
+import { createDbcService, DBC_EXAMPLES, validatePoolAddress } from './src/dbc.mjs';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const mime = new Map([['.html', 'text/html; charset=utf-8'], ['.css', 'text/css; charset=utf-8'],
@@ -31,7 +33,7 @@ function checkQuery(url, allowed) {
   }
 }
 
-export function createSourcebriefServer({ service, publicDir = path.join(root, 'public'), host = '127.0.0.1' } = {}) {
+export function createSourcebriefServer({ service, launchService, publicDir = path.join(root, 'public'), host = '127.0.0.1' } = {}) {
   if (!service) throw new TypeError('service is required');
   const allowedHosts = new Set(['127.0.0.1', 'localhost', '[::1]']);
   if (host !== '0.0.0.0' && host !== '::') allowedHosts.add(host);
@@ -57,6 +59,19 @@ export function createSourcebriefServer({ service, publicDir = path.join(root, '
       if (rawPath.includes('\\') || rawPath.includes('\0') || rawPath.split('/').some(segment => segment.startsWith('.')))
         throw new ApiError(400, 'INVALID_REQUEST', 'Unsupported path.');
       const url = new URL(req.url, requestHost.origin);
+      if (url.pathname === '/api/launch/examples') {
+        checkQuery(url, []);
+        json(res, 200, { items: DBC_EXAMPLES }); return;
+      }
+      if (url.pathname.startsWith('/api/launch/')) {
+        checkQuery(url, ['refresh', 'quoteAmount']);
+        const refresh = url.searchParams.get('refresh');
+        if (refresh !== null && refresh !== '1') throw new ApiError(400, 'INVALID_REFRESH', 'Refresh must be 1 when supplied.');
+        const pool = decodeURIComponent(url.pathname.slice('/api/launch/'.length));
+        validatePoolAddress(pool);
+        if (!launchService) throw new ApiError(503, 'SOLAMI_SETUP_REQUIRED', 'Configure a private Solami RPC key on the server to read live launch evidence.');
+        json(res, 200, await launchService.brief(pool, { refresh: refresh === '1', quoteAmount: url.searchParams.get('quoteAmount') ?? '0.1' })); return;
+      }
       if (url.pathname === '/api/catalog') {
         checkQuery(url, ['limit', 'cursor']);
         const value = url.searchParams.get('limit') ?? '20';
@@ -109,7 +124,8 @@ if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.ar
       const safe = error instanceof ApiError ? error : new ApiError(503, 'CONFIGURATION_ERROR', 'Check the server configuration locally.');
       service = { mode: 'unavailable', catalog: async () => { throw safe; }, brief: async () => { throw safe; } };
     }
-    const server = createSourcebriefServer({ service, host });
+    const launchService = createDbcService({ rpc: await solamiFromEnvironment() });
+    const server = createSourcebriefServer({ service, launchService, host });
     server.on('error', () => { console.error('Sourcebrief could not bind the configured host and port.'); process.exitCode = 1; });
     server.listen(port, host, () => console.log(`Sourcebrief (${service.mode}) listening at http://${host}:${server.address().port}`));
   }

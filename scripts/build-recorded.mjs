@@ -4,6 +4,9 @@ import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { createPantaService, ORIGIN } from '../src/panta.mjs';
 import { validateBrief, validateCatalog } from '../public/evidence.mjs';
+import { validateLaunch } from '../public/launch.mjs';
+import { DBC_EXAMPLES } from '../src/dbc.mjs';
+import { copyPresentationAssets } from './presentation-assets.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const sha256 = value => createHash('sha256').update(value).digest('hex');
@@ -66,10 +69,24 @@ export async function buildRecordedDemo({ outDir = path.join(root, 'dist'), gene
   await writeFile(path.join(output, 'app.mjs'), app);
   await writeFile(path.join(output, 'recorded-fetch.mjs'), await readFile(path.join(root, 'static', 'recorded-fetch.mjs')));
   for (const name of ['styles.css', 'evidence.mjs']) await writeFile(path.join(output, name), await readFile(path.join(root, 'public', name)));
+  const launchCapture = JSON.parse(await readFile(path.join(root, 'fixtures', 'dbc-solami-recording-2026-10-09.json'), 'utf8'));
+  await mkdir(path.join(output, 'data', 'launch'), { recursive: true });
+  const available = new Set();
+  for (const capture of launchCapture.briefs) {
+    if (!validateLaunch(capture) || capture.provenance.provider !== 'Solami') throw new Error('Invalid authentic launch capture.');
+    const replay = structuredClone(capture);
+    replay.provenance = { ...replay.provenance, mode: 'recorded', captureMode: capture.provenance.mode, cached: false };
+    available.add(replay.pool.id);
+    await saveJSON(`data/launch/${replay.pool.id}.json`, replay);
+  }
+  await saveJSON('data/launch/examples.json', { items: DBC_EXAMPLES.filter(item => available.has(item.id)) });
+  let launchHtml = await readFile(path.join(root, 'public', 'launch.html'), 'utf8');
+  launchHtml = replaceOnce(launchHtml, '<head>', '<head>\n  <meta name="sourcebrief-launch-mode" content="recorded">');
+  await writeFile(path.join(output, 'launch.html'), launchHtml);
+  for (const name of ['launch.css', 'launch.mjs']) await writeFile(path.join(output, name), await readFile(path.join(root, 'public', name)));
+  const presentationMedia = await copyPresentationAssets(output);
+  await writeFile(path.join(output, 'presentation-manifest.json'), JSON.stringify({ version: 1, generatedAt, assets: presentationMedia }, null, 2) + '\n');
   await writeFile(path.join(output, 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
-  for (const name of ['presentation.html', 'presentation.css']) await writeFile(path.join(output, name), await readFile(path.join(root, 'static', name)));
-  await mkdir(path.join(output, 'media'), { recursive: true });
-  for (const name of ['sourcebrief-demo.mp4', 'sourcebrief-demo.en.vtt', 'poster.jpg']) await writeFile(path.join(output, 'media', name), await readFile(path.join(root, 'static', 'media', name)));
   await writeFile(path.join(output, '.nojekyll'), '');
   return { outDir: output, recordCount: manifest.recordCount, sourceSHA256: manifest.sourceRecording.sha256 };
 }

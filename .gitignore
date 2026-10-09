@@ -1,4 +1,8 @@
 node_modules/
+live-dist/
+.wrangler/
+.dev.vars
+.dev.vars.*
 .env
 .env.*
 !.env.example
@@ -17,3 +21,6 @@ submission/video/qa/
 public/evidence-export-preview.*
 submission/panta-form-prepared.json
 submission/panta-pending-colosseum.jpg
+submission/colosseum-signin-pending.jpg
+submission/COLOSSEUM-COPIAR.md
+submission/COLOSSEUM-FIELDS-*.json
