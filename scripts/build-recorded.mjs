@@ -79,9 +79,12 @@ export async function buildRecordedDemo({ outDir = path.join(root, 'dist'), gene
     available.add(replay.pool.id);
     await saveJSON(`data/launch/${replay.pool.id}.json`, replay);
   }
-  await saveJSON('data/launch/examples.json', { items: DBC_EXAMPLES.filter(item => available.has(item.id)) });
+  await saveJSON('data/launch/examples.json', { items: DBC_EXAMPLES.filter(item => available.has(item.id)).map(item => ({
+    ...item, detail: item.detail.replace('Current state is fetched again; no endorsement.', 'This archive replays the original capture; no endorsement.')
+  })) });
   let launchHtml = await readFile(path.join(root, 'public', 'launch.html'), 'utf8');
   launchHtml = replaceOnce(launchHtml, '<head>', '<head>\n  <meta name="sourcebrief-launch-mode" content="recorded">');
+  launchHtml = replaceOnce(launchHtml, 'Sourcebrief reads mainnet accounts; it never connects a wallet.', 'This archive replays preserved mainnet accounts; it does not fetch current state or connect a wallet.');
   await writeFile(path.join(output, 'launch.html'), launchHtml);
   for (const name of ['launch.css', 'launch.mjs']) await writeFile(path.join(output, name), await readFile(path.join(root, 'public', name)));
   const presentationMedia = await copyPresentationAssets(output);

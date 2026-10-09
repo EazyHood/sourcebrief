@@ -61,6 +61,7 @@ test('static recorded build and adapter preserve the contract on a GitHub Pages 
       assert.match(await readFile(path.join(destination, 'app.mjs'), 'utf8'), /Replay captured evidence/);
       const originalLaunch = JSON.parse(await readFile(path.join(root, 'fixtures', 'dbc-solami-recording-2026-10-09.json'), 'utf8'));
       assert.match(await readFile(path.join(destination, 'launch.html'), 'utf8'), /name="sourcebrief-launch-mode" content="recorded"/);
+      assert.doesNotMatch(await readFile(path.join(destination, 'data', 'launch', 'examples.json'), 'utf8'), /Current state is fetched again/);
       for (const original of originalLaunch.briefs) {
         const replay = JSON.parse(await readFile(path.join(destination, 'data', 'launch', `${original.pool.id}.json`), 'utf8'));
         assert.equal(replay.provenance.mode, 'recorded');
